@@ -79,4 +79,14 @@ export async function deleteEvent(req, res, next) {
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
+
+
+
+
+
+  
+
+
+
+
 }

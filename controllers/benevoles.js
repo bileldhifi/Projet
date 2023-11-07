@@ -62,3 +62,15 @@ export async function addBenevole(req, res, next) {
       res.status(400).json({ error: error.message });
     }
   }
+// TODO: Delete a benevoles
+export async function deleteBenevoles(req, res, next) {
+  try {
+    const deletedBenevoles = await Benevoles.findByIdAndDelete(req.params.id);
+    if (!deletedBenevoles) {
+      return res.status(404).json({ message: 'Benevoles not found' });
+    }
+    res.status(200).json({ message: 'Benevoles deleted' });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+}
