@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="imageSliderSliderrectangle2314Model" type="com.oumaymasapplication.app.modules.reclamation.data.model.ImageSliderSliderrectangle2314Model"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_12">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnrectangle2314"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_19pxv"
+            android:layout_marginEnd="@dimen/_25pxh"
+            android:layout_marginStart="@dimen/_25pxh"
+            android:layout_marginTop="@dimen/_18pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_13">
+            <View android:background="@color/red_A200"
+                android:id="@+id/lineRectangle2314"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_6pxv" android:layout_width="@dimen/_58pxh"/>
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtName"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_14pxv"
+                android:layout_marginEnd="@dimen/_8pxh"
+                android:layout_marginStart="@dimen/_8pxh"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{imageSliderSliderrectangle2314Model.txtName}"
+                style="@style/txtIntersemibold18" tools:text="@string/lbl_5_20"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

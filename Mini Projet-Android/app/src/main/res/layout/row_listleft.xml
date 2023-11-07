@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listleftRowModel" type="com.oumaymasapplication.app.modules.frame225.data.model.ListleftRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearCard"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <ImageButton android:background="@drawable/layer_list_radius_24"
+            android:id="@+id/btnLeft"
+            android:layout_height="@dimen/_48pxh"
+            android:layout_width="@dimen/_48pxh"
+            android:paddingHorizontal="@dimen/_9pxh"
+            android:paddingVertical="@dimen/_9pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_left" tools:ignore="ContentDescription"/>
+        <LinearLayout android:gravity="end"
+            android:id="@+id/linearLoadermoney"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_8pxv"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_weight="0.84" android:layout_width="0dp" android:orientation="vertical">
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearMoney"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLeftOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{listleftRowModel.txtLeftOne}"
+                    style="@style/txtRobotoregular10" tools:text="@string/lbl_left"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtPriceOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{listleftRowModel.txtPriceOne}"
+                    style="@style/txtRobotomedium14" tools:text="@string/lbl_182"/>
+                <ImageView android:id="@+id/imageComputer"
+                    android:layout_height="@dimen/_12pxh"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_6pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="@dimen/_12pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_computer"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_computer"/>
+            </LinearLayout>
+            <ProgressBar android:gravity="start"
+                android:id="@+id/progressBarLoader"
+                android:indeterminate="false"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:max="100"
+                android:minHeight="@dimen/_6pxv" android:progress="13"
+                android:progressDrawable="@drawable/layer_list_radius_3" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

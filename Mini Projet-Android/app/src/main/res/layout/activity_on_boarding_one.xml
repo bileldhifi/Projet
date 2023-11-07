@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="onBoardingOneVM" type="com.oumaymasapplication.app.modules.onboardingone.data.viewmodel.OnBoardingOneVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackrectangle728"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <FrameLayout android:id="@+id/frameOnboardingOne"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+            <ImageView android:id="@+id/imageRectangle728"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_807pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="@dimen/_374pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_rectangle728}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle728"/>
+            <FrameLayout android:id="@+id/frameStackpexelsrdnesto"
+                android:layout_gravity="start"
+                android:layout_height="match_parent" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imagePexelsrdnesto"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_812pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_pexelsrdnesto}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_pexelsrdnesto"/>
+                <LinearLayout android:id="@+id/linearColumnweneedtochan"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_131pxv"
+                    android:layout_marginEnd="@dimen/_15pxh"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_marginTop="@dimen/_131pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:id="@+id/txtWeNeedToChan"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:text="@{onBoardingOneVM.onBoardingOneModel.txtWeNeedToChan}"
+                        style="@style/txtMetropolisbold24" tools:text="@string/msg_we_need_to_chan"/>
+                    <TextView android:id="@+id/txtLoremipsumdol"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{onBoardingOneVM.onBoardingOneModel.txtLoremipsumdol}"
+                        style="@style/txtPoppinsmedium14" tools:text="@string/msg_lorem_ipsum_dol2"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnCreateAccount"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_26pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_create_account"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded" tools:text="@string/lbl_create_account"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnLogIn"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_25pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_log_in"
+                        android:textAllCaps="false"
+                        style="@style/btnRoundedOutline" tools:text="@string/lbl_log_in"/>
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</layout>
