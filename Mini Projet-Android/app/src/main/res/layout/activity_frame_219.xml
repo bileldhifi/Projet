@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="frame219VM" type="com.oumaymasapplication.app.modules.frame219.data.viewmodel.Frame219VM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStack"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_gravity="start" android:layout_height="0dp"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <FrameLayout android:id="@+id/frameStackcontinue"
+                android:layout_height="match_parent" android:layout_width="match_parent">
+                <LinearLayout android:id="@+id/linearColumncontinue"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_9pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylewhite_3">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnContinue"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_15pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_742pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_16pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_16pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_continue"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_4" tools:text="@string/lbl_continue"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageBack"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_50pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_width="@dimen/_50pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_back}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_back"/>
+                <LinearLayout android:id="@+id/linearAutoLayoutVer"
+                    android:layout_gravity="top|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_17pxh"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSelectYourInt"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_56pxh"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{frame219VM.frame219Model.txtSelectYourInt}"
+                        style="@style/txtSourceSansProsemibold15" tools:text="@string/msg_select_your_int"/>
+                    <TextView android:gravity="start"
+                        android:id="@+id/txtChooseyourint"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_40pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{frame219VM.frame219Model.txtChooseyourint}"
+                        style="@style/txtSourceSansProregular16" tools:text="@string/msg_choose_your_int"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:gravity="start"
+                        android:id="@+id/recyclerGridlocation"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_22pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="3" itemSpace="@{@dimen/_16pxh}"
+                        tools:itemCount="12" tools:listitem="@layout/row_gridlocation"/>
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</layout>

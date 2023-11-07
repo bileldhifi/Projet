@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="sevenVM" type="com.oumaymasapplication.app.modules.seven.data.viewmodel.SevenVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearSeven"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_34pxv"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageArrowleft"
+            android:layout_height="@dimen/_15pxh"
+            android:layout_marginBottom="@dimen/_727pxv"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="@dimen/_7pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_arrowleft"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnitems"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_110pxv"
+            android:layout_marginStart="@dimen/_2pxh"
+            android:layout_weight="0.93" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end" android:id="@+id/txtItems"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{sevenVM.sevenModel.txtItems}"
+                style="@style/txtSourceSansProsemibold15" tools:text="@string/lbl_items"/>
+            <LinearLayout android:id="@+id/linearRowhomeappliance"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_6pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnhomeappliance"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_15">
+                    <ImageView android:gravity="center_horizontal"
+                        android:id="@+id/imageHomeappliance"
+                        android:layout_height="@dimen/_117pxh"
+                        android:layout_marginEnd="@dimen/_6pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_homeappliance}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_homeappliance"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtElectric"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_30pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtElectric}"
+                        style="@style/txtSeoulNamsanvert20" tools:text="@string/lbl_electric"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumntshirtclothin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_16">
+                    <ImageView android:id="@+id/imageTshirtclothin"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_103pxh"
+                        android:layout_marginEnd="@dimen/_17pxh"
+                        android:layout_marginStart="@dimen/_17pxh"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="@dimen/_97pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_tshirtclothin}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_tshirtclothin"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtClothes"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginEnd="@dimen/_24pxh"
+                        android:layout_marginStart="@dimen/_24pxh"
+                        android:layout_marginTop="@dimen/_18pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtClothes}"
+                        style="@style/txtSeoulNamsanvert20" tools:text="@string/lbl_clothes"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowrectanglenineteen"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_26pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout
+                    android:id="@+id/frameStackrectanglenineteen"
+                    android:layout_height="@dimen/_177pxv" android:layout_width="@dimen/_148pxh">
+                    <View
+                        android:background="@drawable/rectangle_bg_white_a700_border_light_green_400_radius_33"
+                        android:id="@+id/viewRectangleNineteen"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_177pxh"
+                        android:layout_marginEnd="@dimen/_4pxh"
+                        android:layout_marginStart="@dimen/_5pxh" android:layout_width="@dimen/_138pxh"/>
+                    <ImageView android:id="@+id/imageMoneydonation"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_78pxv"
+                        android:layout_marginBottom="@dimen/_39pxv"
+                        android:layout_marginTop="@dimen/_39pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        cornerRadius="@{@dimen/_26pxh}"
+                        imageRes="@{@drawable/img_moneydonation}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_moneydonation"/>
+                </FrameLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnmedic"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_weight="0.48"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_17">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtMedic"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_20pxh"
+                        android:layout_marginStart="@dimen/_20pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtMedic}"
+                        style="@style/txtSeoulNamsanvert20" tools:text="@string/lbl_medic"/>
+                    <ImageView android:id="@+id/imageDietarysupplem"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_128pxh"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_marginEnd="@dimen/_18pxh"
+                        android:layout_marginStart="@dimen/_20pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_dietarysupplem}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_dietarysupplem"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowbloodtestbloo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnbloodtestbloo"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_17">
+                    <ImageView android:gravity="center_horizontal"
+                        android:id="@+id/imageBloodtestbloo"
+                        android:layout_height="@dimen/_98pxh"
+                        android:layout_marginEnd="@dimen/_8pxh"
+                        android:layout_marginStart="@dimen/_7pxh"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_bloodtestbloo}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_bloodtestbloo"/>
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtBloodDonation"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_13pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_26pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{sevenVM.sevenModel.txtBloodDonation}"
+                        style="@style/txtSeoulNamsanvert20" tools:text="@string/lbl_blood_donation"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnpackage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:orientation="vertical" style="@style/groupStylewhite_17">
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtPackage"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtPackage}"
+                        style="@style/txtSeoulNamsanvert20" tools:text="@string/lbl_package"/>
+                    <ImageView android:id="@+id/imageBox"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_99pxh"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_20pxv"
+                        android:layout_width="@dimen/_99pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_box}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_box"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.03" android:layout_width="0dp" style="@style/groupStylewhite_11">
+            <LinearLayout android:id="@+id/linearRowlock"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_12pxv"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearHome"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageLock"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_24pxh"
+                        android:layout_width="@dimen/_24pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_lock"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_lock"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtHome"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtHome}"
+                        style="@style/txtMetropolisregular12" tools:text="@string/lbl_home"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumnfavorite"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageFavorite"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_width="@dimen/_21pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_favorite"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_favorite"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtSaved"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtSaved}"
+                        style="@style/txtMetropolisregular12_1" tools:text="@string/lbl_saved"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearSettings"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageSettings"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_18pxh"
+                        android:layout_width="@dimen/_20pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_settings"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_settings"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtSettingsOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_13pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtSettingsOne}"
+                        style="@style/txtMetropolisregular12_1" tools:text="@string/lbl_settings"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearProfile"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageSearch"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_width="@dimen/_13pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_search"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_search"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtProfile"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{sevenVM.sevenModel.txtProfile}"
+                        style="@style/txtMetropolisregular12_1" tools:text="@string/lbl_profile"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
