@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "oumayma_s_application2"
