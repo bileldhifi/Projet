@@ -1,24 +1,28 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
 }
-
-def koin_version = "2.1.6"
-def lifecycleVersion = "2.2.0"
-def retrofitVersion = '2.9.0'
-def okhttpVersion = '4.9.0'
-def glideVersion = '4.11.0'
-
-
 android {
-    compileSdkVersion 33
-    buildToolsVersion "30.0.3"
+    compileSdkVersion 31
+    buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.oumaymasapplication.app"
-        minSdkVersion 23
-        targetSdkVersion 33
+        applicationId "com.example.myapp"
+        minSdkVersion 16
+        targetSdkVersion 31
+
+    }
+
+    // Other Android-related configurations here
+}
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.example.front"
+        minSdk 21
+        targetSdk 31
         versionCode 1
         versionName "1.0"
 
@@ -27,8 +31,7 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
-            shrinkResources true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -40,53 +43,55 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures {
-        dataBinding true
+        viewBinding true
     }
+
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.9.0'
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
-    implementation "androidx.activity:activity-ktx:1.6.1"
-    implementation "androidx.fragment:fragment-ktx:1.5.5"
 
-    implementation 'com.google.android.material:material:1.7.0'
-
-    implementation "io.insert-koin:koin-core:$koin_version"
-    implementation "io.insert-koin:koin-core-ext:$koin_version"
-    implementation "io.insert-koin:koin-androidx-scope:$koin_version"
-    implementation "io.insert-koin:koin-androidx-viewmodel:$koin_version"
-
-
-    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
-    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2"
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-
-    implementation "com.github.bumptech.glide:glide:$glideVersion"
-    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
-    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.2'
-
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+    implementation "androidx.drawerlayout:drawerlayout:1.1.1"
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 
-    implementation("androidx.security:security-crypto:1.0.0")
-    implementation "com.airbnb.android:lottie:3.4.0"
 
-    implementation 'com.google.android.gms:play-services-auth:19.2.0'
-    implementation 'com.facebook.android:facebook-login:8.1.0'
-    implementation 'com.dhiwise:endless-viewpager:1.0.0'
-    implementation 'com.vmadalin:easypermissions-ktx:0.1.0'
+implementation'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+implementation'com.squareup.retrofit2:converter-scalars:2.3.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.6.0'
+
+    implementation'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation'io.reactivex.rxjava2:rxjava:2.2.9'
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+
+
+
+
+
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    // alternately - if using Java8, use the following instead of compiler
+    implementation "android.arch.lifecycle:common-java8:1.1.1"
+
+    implementation "android.arch.paging:runtime:1.0.0"
+    // optional - RxJava support, currently in alpha
+    implementation "android.arch.paging:rxjava2:1.0.0-alpha1"
+    implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 }
-
-
-
-

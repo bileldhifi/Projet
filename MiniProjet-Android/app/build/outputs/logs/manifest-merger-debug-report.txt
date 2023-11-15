@@ -1,0 +1,358 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/8407d9905a1440a4036a87c618a223f3/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/422c7078c88884e4ac0ef05df559d5e8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c6802ec958cacb022b4f8ff716d9fcf1/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/24e1471fa9917b62259e90d3101185cc/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e2d4ab8e9d891db4a7155c0f976b7b9/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a5bdebf99b8d22840a02a81d714753f1/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2f2dedcfaa2b4cdff4184f52566c5caf/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/08740a8015b07d2eebf8aa3a700965ba/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f4fae922a9be920eb73ae49a6e47494e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/357692319ae9cb10637886951f175baa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/208c7b4144e6ac043017662a0bb75609/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/07471be1aa4351aac0af379e14732205/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1c83cb77a8e1337dd4bb1905d22d59bc/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b6af745ea44f9269f3674ed7827715d0/transformed/constraintlayout-2.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/09a8bb501bcc75fcb17fe2501375e953/transformed/appcompat-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4c7cc17888c2cf0a8d783c1cc423ccbc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d1fecc8306ccaed0d49f66bb49cb9d88/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa73ea4cee6451449b1eb4455d5885fa/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ea28e950550e891a6954b8f2c2785e91/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/15be2205c851895cc3dfa59d7d17b83a/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.paging:paging-rxjava2:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0f4c9b78fdc86524373c31f46cd7f92/transformed/paging-rxjava2-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa1105ccc48da8a61b61a195eb751399/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0101fbe73d58582d809d8a0192f205c3/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e21c58485b9de63fb4d3a5bce9150616/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ee749ce9699fd99d5d23471fa637fe59/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1cb64e27b5e8dbcf4fea7bb102669e0f/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/db44d58abbea6058ed93c4e227b90ae9/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/04ca6c5ef33fa015c87f5219d67c16ef/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f3fca66d49d04ea450718a579cca9874/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/195a0f7e07f8d09ef9b07c1b131ef18f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c61aa259eeeea278cb1985ef237ad8cd/transformed/paging-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0852ba2ee589eb1fd4dc73d19e7121ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50317b70b503dbacf2b443d70f603e68/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/898b51a6cb5f2c293f1f35fbd16db882/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e3909f80655bf9a4d72aa71542311188/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/7032dc5635cf0c63fd964769e6dffd03/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ad782143fbbe9e30fea17b34b6df15dc/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3cb2cdbe82064aad5e50f49a387ebb78/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0541756be44f7eaa56b77a29d886c5aa/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/127f2af5f17a798efbd438b434f8bea1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/68b57e7e116dac6d1c2f7b8ecb15ef65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d188336c22a81c96fe60ee3dfbb235e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b10b1764d19664ee36f70bba1b02c232/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2ab8ae6cc439e0ce8915d96dcbc5a365/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9d505d13cc947dcd850e4743859c9ed7/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d80c87bcc81fdcae43d521b9e3f460ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a81f6c84781006b1d8672e6c3e35a3c9/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/620267ff5af169211fe95b3632611f50/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f73cc970c04ecfdf63485ecdf6bf657d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2954caafc14427d448f7dcd9dddf4896/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/230941661fb4f75f329dcced321348b2/transformed/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/95e440d84393cb967b1e7fc3c5d26434/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a781a8e19f6c9f6f8bd111e52261dc7c/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1b32f71f997cc4d809784e03bc6fe07c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2a8f3b73a83ddf711f86960e826991b1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/627eb674412ec412d2779d5659216e4d/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4362376a03c4f0890a537fbeb90df399/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50662fdc54e41fbcb704c818cc0fdfb8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c4f36ec7099899e5efaea1972430dcce/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/16932e39866feafa444c44b9e16ebc78/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4afd56bd2637fb965d6a06008d30a55b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/cde1dd018123a91cd6f3597caeb57d52/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/60518eebc6466e933fc0f9aaf90798da/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0af78930eb68aff680c92f9ecf84f66/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:7:5-32:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1c83cb77a8e1337dd4bb1905d22d59bc/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1c83cb77a8e1337dd4bb1905d22d59bc/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b6af745ea44f9269f3674ed7827715d0/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b6af745ea44f9269f3674ed7827715d0/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ea28e950550e891a6954b8f2c2785e91/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ea28e950550e891a6954b8f2c2785e91/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa1105ccc48da8a61b61a195eb751399/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa1105ccc48da8a61b61a195eb751399/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0101fbe73d58582d809d8a0192f205c3/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0101fbe73d58582d809d8a0192f205c3/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4362376a03c4f0890a537fbeb90df399/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4362376a03c4f0890a537fbeb90df399/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:fontFamily
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:8:9-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:13:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.example.front.DetailsActivity
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:17:13-44
+activity#com.example.front.menuClient
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:20:13-39
+activity#com.example.front.MainActivity
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:23:9-31:20
+	android:exported
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/8407d9905a1440a4036a87c618a223f3/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/8407d9905a1440a4036a87c618a223f3/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/422c7078c88884e4ac0ef05df559d5e8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/422c7078c88884e4ac0ef05df559d5e8/transformed/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c6802ec958cacb022b4f8ff716d9fcf1/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c6802ec958cacb022b4f8ff716d9fcf1/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/24e1471fa9917b62259e90d3101185cc/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/24e1471fa9917b62259e90d3101185cc/transformed/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e2d4ab8e9d891db4a7155c0f976b7b9/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e2d4ab8e9d891db4a7155c0f976b7b9/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a5bdebf99b8d22840a02a81d714753f1/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a5bdebf99b8d22840a02a81d714753f1/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2f2dedcfaa2b4cdff4184f52566c5caf/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2f2dedcfaa2b4cdff4184f52566c5caf/transformed/jetified-lifecycle-viewmodel-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/08740a8015b07d2eebf8aa3a700965ba/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/08740a8015b07d2eebf8aa3a700965ba/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f4fae922a9be920eb73ae49a6e47494e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f4fae922a9be920eb73ae49a6e47494e/transformed/jetified-lifecycle-livedata-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/357692319ae9cb10637886951f175baa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/357692319ae9cb10637886951f175baa/transformed/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/208c7b4144e6ac043017662a0bb75609/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/208c7b4144e6ac043017662a0bb75609/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/07471be1aa4351aac0af379e14732205/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/07471be1aa4351aac0af379e14732205/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1c83cb77a8e1337dd4bb1905d22d59bc/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1c83cb77a8e1337dd4bb1905d22d59bc/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b6af745ea44f9269f3674ed7827715d0/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b6af745ea44f9269f3674ed7827715d0/transformed/constraintlayout-2.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/09a8bb501bcc75fcb17fe2501375e953/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/09a8bb501bcc75fcb17fe2501375e953/transformed/appcompat-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4c7cc17888c2cf0a8d783c1cc423ccbc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4c7cc17888c2cf0a8d783c1cc423ccbc/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d1fecc8306ccaed0d49f66bb49cb9d88/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d1fecc8306ccaed0d49f66bb49cb9d88/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa73ea4cee6451449b1eb4455d5885fa/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa73ea4cee6451449b1eb4455d5885fa/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ea28e950550e891a6954b8f2c2785e91/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ea28e950550e891a6954b8f2c2785e91/transformed/jetified-circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/15be2205c851895cc3dfa59d7d17b83a/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/15be2205c851895cc3dfa59d7d17b83a/transformed/jetified-rxandroid-2.0.2/AndroidManifest.xml:19:5-43
+MERGED from [androidx.paging:paging-rxjava2:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0f4c9b78fdc86524373c31f46cd7f92/transformed/paging-rxjava2-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-rxjava2:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0f4c9b78fdc86524373c31f46cd7f92/transformed/paging-rxjava2-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa1105ccc48da8a61b61a195eb751399/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/fa1105ccc48da8a61b61a195eb751399/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0101fbe73d58582d809d8a0192f205c3/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0101fbe73d58582d809d8a0192f205c3/transformed/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e21c58485b9de63fb4d3a5bce9150616/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e21c58485b9de63fb4d3a5bce9150616/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ee749ce9699fd99d5d23471fa637fe59/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ee749ce9699fd99d5d23471fa637fe59/transformed/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1cb64e27b5e8dbcf4fea7bb102669e0f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1cb64e27b5e8dbcf4fea7bb102669e0f/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/db44d58abbea6058ed93c4e227b90ae9/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/db44d58abbea6058ed93c4e227b90ae9/transformed/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/04ca6c5ef33fa015c87f5219d67c16ef/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/04ca6c5ef33fa015c87f5219d67c16ef/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f3fca66d49d04ea450718a579cca9874/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f3fca66d49d04ea450718a579cca9874/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/195a0f7e07f8d09ef9b07c1b131ef18f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/195a0f7e07f8d09ef9b07c1b131ef18f/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c61aa259eeeea278cb1985ef237ad8cd/transformed/paging-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.paging:paging-runtime:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c61aa259eeeea278cb1985ef237ad8cd/transformed/paging-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0852ba2ee589eb1fd4dc73d19e7121ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0852ba2ee589eb1fd4dc73d19e7121ec/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50317b70b503dbacf2b443d70f603e68/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50317b70b503dbacf2b443d70f603e68/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/898b51a6cb5f2c293f1f35fbd16db882/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/898b51a6cb5f2c293f1f35fbd16db882/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e3909f80655bf9a4d72aa71542311188/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/e3909f80655bf9a4d72aa71542311188/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/7032dc5635cf0c63fd964769e6dffd03/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/7032dc5635cf0c63fd964769e6dffd03/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ad782143fbbe9e30fea17b34b6df15dc/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/ad782143fbbe9e30fea17b34b6df15dc/transformed/lifecycle-livedata-core-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3cb2cdbe82064aad5e50f49a387ebb78/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3cb2cdbe82064aad5e50f49a387ebb78/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0541756be44f7eaa56b77a29d886c5aa/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/0541756be44f7eaa56b77a29d886c5aa/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/127f2af5f17a798efbd438b434f8bea1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/127f2af5f17a798efbd438b434f8bea1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/68b57e7e116dac6d1c2f7b8ecb15ef65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/68b57e7e116dac6d1c2f7b8ecb15ef65/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d188336c22a81c96fe60ee3dfbb235e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d188336c22a81c96fe60ee3dfbb235e4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b10b1764d19664ee36f70bba1b02c232/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b10b1764d19664ee36f70bba1b02c232/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2ab8ae6cc439e0ce8915d96dcbc5a365/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2ab8ae6cc439e0ce8915d96dcbc5a365/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9d505d13cc947dcd850e4743859c9ed7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9d505d13cc947dcd850e4743859c9ed7/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d80c87bcc81fdcae43d521b9e3f460ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d80c87bcc81fdcae43d521b9e3f460ed/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a81f6c84781006b1d8672e6c3e35a3c9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a81f6c84781006b1d8672e6c3e35a3c9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/620267ff5af169211fe95b3632611f50/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/620267ff5af169211fe95b3632611f50/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f73cc970c04ecfdf63485ecdf6bf657d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/f73cc970c04ecfdf63485ecdf6bf657d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2954caafc14427d448f7dcd9dddf4896/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2954caafc14427d448f7dcd9dddf4896/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/230941661fb4f75f329dcced321348b2/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/230941661fb4f75f329dcced321348b2/transformed/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/95e440d84393cb967b1e7fc3c5d26434/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/95e440d84393cb967b1e7fc3c5d26434/transformed/jetified-lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a781a8e19f6c9f6f8bd111e52261dc7c/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a781a8e19f6c9f6f8bd111e52261dc7c/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1b32f71f997cc4d809784e03bc6fe07c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1b32f71f997cc4d809784e03bc6fe07c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2a8f3b73a83ddf711f86960e826991b1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2a8f3b73a83ddf711f86960e826991b1/transformed/lifecycle-viewmodel-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/627eb674412ec412d2779d5659216e4d/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/627eb674412ec412d2779d5659216e4d/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4362376a03c4f0890a537fbeb90df399/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4362376a03c4f0890a537fbeb90df399/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50662fdc54e41fbcb704c818cc0fdfb8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/50662fdc54e41fbcb704c818cc0fdfb8/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c4f36ec7099899e5efaea1972430dcce/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c4f36ec7099899e5efaea1972430dcce/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/16932e39866feafa444c44b9e16ebc78/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/16932e39866feafa444c44b9e16ebc78/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4afd56bd2637fb965d6a06008d30a55b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/4afd56bd2637fb965d6a06008d30a55b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/cde1dd018123a91cd6f3597caeb57d52/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/cde1dd018123a91cd6f3597caeb57d52/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/60518eebc6466e933fc0f9aaf90798da/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/60518eebc6466e933fc0f9aaf90798da/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0af78930eb68aff680c92f9ecf84f66/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/a0af78930eb68aff680c92f9ecf84f66/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9c9514fe5edd21363a62323efcb0f686/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64

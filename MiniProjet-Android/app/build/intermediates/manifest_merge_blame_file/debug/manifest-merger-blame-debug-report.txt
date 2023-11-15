@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.front"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:7:5-32:19
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:fontFamily="@font/milkyniceclean"
+16-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:8:9-50
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Front"
+22-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:13:9-43
+23        android:usesCleartextTraffic="true" >
+23-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:14:9-44
+24        <activity
+24-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:16:9-18:40
+25            android:name="com.example.front.DetailsActivity"
+25-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:17:13-44
+26            android:exported="false" />
+26-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:18:13-37
+27        <activity
+27-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:19:9-21:40
+28            android:name="com.example.front.menuClient"
+28-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:20:13-39
+29            android:exported="false" />
+29-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:21:13-37
+30        <activity
+30-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:23:9-31:20
+31            android:name="com.example.front.MainActivity"
+31-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:24:13-41
+32            android:exported="true" >
+32-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:25:13-36
+33            <intent-filter>
+33-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:27:17-69
+34-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:29:17-77
+36-->/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+42            android:authorities="com.example.front.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/d26e7aaf0ae42f50c9816873c79ca82d/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/887907384f3fe88b8b59485ab1d04391/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+50        </provider>
+51        <provider
+51-->[com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+53            android:authorities="com.example.front.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+55    </application>
+56
+57</manifest>

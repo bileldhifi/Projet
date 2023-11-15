@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //dimension image back
+    <dimen name="width_height">30dp</dimen>
+    //margin image back
+    <dimen name="Left_back">20dp</dimen>
+    <dimen name="Top_back">30dp</dimen>
+
+    //dimension button
+    <dimen name="width_button">350dp</dimen>
+    <dimen name="height_button">55dp </dimen>
+    //margin button frame login
+    <dimen name="margin_top_button">600dp </dimen>
+    <dimen name="margin_left_button">35dp </dimen>
+    //text field login
+    <dimen name="margin_left_text">130dp </dimen>
+    <dimen name="margin_top_text">30dp </dimen>
+    //dimension image login
+    <dimen name="width_image">230dp </dimen>
+    <dimen name="height_image">260dp </dimen>
+    //margin image login
+    <dimen name="margin_left_image">90dp </dimen>
+    <dimen name="margin_top_image">60dp </dimen>
+    //dimension text field
+    <dimen name="width_text_field">320dp </dimen>
+    <dimen name="height_text_field">50dp </dimen>
+   //margin text petit
+    <dimen name="margin_text_petit">660dp</dimen>
+</resources>

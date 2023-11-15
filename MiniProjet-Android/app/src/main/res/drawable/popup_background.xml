@@ -1,0 +1,5 @@
+<!-- res/drawable/popup_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#80000000"/> <!-- Couleur ARGB pour la transparence -->
+    <corners android:radius="8dp"/> <!-- Facultatif : coins arrondis -->
+</shape>

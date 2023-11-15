@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  monog_db:
+    container_name: db_container
+    image: mongo:5
+    restart: always
+    ports:
+      - 2717:27017
+    volumes: 
+    - mongo_db:/data/db
+
+  api:
+    build: .
+    ports:
+     - 4000:3000
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - mongo_db
+    
+volumes:
+  mongo_db: {}

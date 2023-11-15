@@ -1,86 +1,46 @@
+#  Front Interface (UI)
 
-# oumayma_s_application2
+## Table of Contents
 
-Built with AndroidX Support
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Contributing](../CONTRIBUTING.md)
 
-Requires Android Studio Arctic Fox | 2020.3.1 or higher.
+## About <a name = "about"></a>
 
-Current Kotlin Version 1.7.20
+Write about 1-2 paragraphs describing the purpose of your project.
 
+## Getting Started <a name = "getting_started"></a>
 
-### SDK Versions
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-compileSdkVersion 33
+### Prerequisites
 
-buildToolsVersion "30.0.3"
-
-minSdkVersion 23
-
-targetSdkVersion 33
-
-
-### Libraries
-
-1. Retrofit- REST API Call
-https://square.github.io/retrofit/
-2. Glide - Image Loading and caching.
-https://github.com/bumptech/glide
-3. Material Design Components - Google's latest Material Components.
-https://material.io/develop/android
-4. koin - Dependency Injection
-https://insert-koin.io/
-
-### Figma design guideline for better accuracy
-
-Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs. 
-https://docs.dhiwise.com/docs/Designguidelines/intro .
-
-### App Navigation
-
-Check your app\'s UI from the AppNavigation screens of your app.
-
-### Package Structure
-
+What things you need to install the software and how to install them.
 
 ```
-├── appcomponents       
-│ ├── di                 - Dependency Injection Components 
-│ │ └── MyApp.kt
-│ ├── network            - REST API Call setup
-│ │ ├── ResponseCode.kt
-│ │ └── RetrofitProvider.kt
-│ └── ui                 - Data Binding Utilities
-│     └── CustomBindingAdapter.kt
-├── constants            - Constant Files
-│ ├── IntegerConstants.kt
-│ └── StringConstants.kt
-├── extensions           - Kotlin Extension Function Files
-│ └── Strings.kt
-├── modules              - Application Specific code
-│ └── example            - A module of Application 
-│  ├── ui                - UI handling classes
-│  └── data              - Data Handling classes
-│    ├── viewmodel       - ViewModels for the UI
-│    └── model           - Model for the UI
-└── network              - REST API setup
-  ├── models             - Request/Response Models
-  ├── repository         - Network repository
-  ├── resources          - Common classes for API
-  └── RetrofitService.kt
+Give examples
 ```
-### Fonts
-We were unable to find following Fonts, Please add manually to ```app/src/main/res/font``` and uncomment code in respective font family XML files.
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
 
 ```
-metropolisbold
-metropolismedium
-metropolisregular
-sourcesansprosemibold
-sourcesansproregular
-helvetica
-helveticabold
-seoulnamsanvert
-seoulnamsanb
-airbnbcerealappbook
-airbnbcerealappmedium
+Give the example
 ```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo.
+
+## Usage <a name = "usage"></a>
+
+Add notes about how to use the system.

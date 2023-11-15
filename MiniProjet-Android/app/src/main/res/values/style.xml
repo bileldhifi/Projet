@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="circular">
+            <item name ="cornerSize">50%</item>
+        </style>
+    <style name="inputText">
+        <item name ="cornerSize">10%</item>
+    </style>
+    <style name="BottomNavigation.ActiveItemTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/milkyniceclean</item>
+    </style>
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/milkyniceclean</item>
+    </style>
+
+</resources>

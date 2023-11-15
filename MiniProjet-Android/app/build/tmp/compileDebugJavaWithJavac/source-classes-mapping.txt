@@ -1,0 +1,34 @@
+com/example/front/databinding/ActivityDetailsBinding.java
+ com.example.front.databinding.ActivityDetailsBinding
+com/example/front/databinding/FragmentSignUpBinding.java
+ com.example.front.databinding.FragmentSignUpBinding
+com/example/front/databinding/FragmentQuizBinding.java
+ com.example.front.databinding.FragmentQuizBinding
+com/example/front/databinding/FragmentChangePasswordBinding.java
+ com.example.front.databinding.FragmentChangePasswordBinding
+com/example/front/databinding/ActivityMenuClientBinding.java
+ com.example.front.databinding.ActivityMenuClientBinding
+com/example/front/databinding/FragmentSignUpCodeBinding.java
+ com.example.front.databinding.FragmentSignUpCodeBinding
+com/example/front/databinding/FragmentDetailsBinding.java
+ com.example.front.databinding.FragmentDetailsBinding
+com/example/front/databinding/FragmentAccountBinding.java
+ com.example.front.databinding.FragmentAccountBinding
+com/example/front/databinding/FragmentHomeBinding.java
+ com.example.front.databinding.FragmentHomeBinding
+com/example/front/databinding/ActivityLoginBinding.java
+ com.example.front.databinding.ActivityLoginBinding
+com/example/front/databinding/ActivityMainBinding.java
+ com.example.front.databinding.ActivityMainBinding
+com/example/front/databinding/FragmentSignnInBinding.java
+ com.example.front.databinding.FragmentSignnInBinding
+com/example/front/BuildConfig.java
+ com.example.front.BuildConfig
+com/example/front/databinding/FragmentAddNewsBinding.java
+ com.example.front.databinding.FragmentAddNewsBinding
+com/example/front/databinding/ActivityMenuSourceBinding.java
+ com.example.front.databinding.ActivityMenuSourceBinding
+com/example/front/databinding/NewsSingleItemBinding.java
+ com.example.front.databinding.NewsSingleItemBinding
+com/example/front/databinding/FragmentModifyProfileBinding.java
+ com.example.front.databinding.FragmentModifyProfileBinding
