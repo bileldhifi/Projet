@@ -26,3 +26,9 @@ Gestion des Utilisateurs
 
 Module de Récompenses 
 
+
+<img width="334" alt="ecogive" src="https://github.com/bileldhifi/Projet/assets/61600395/3b3a9531-44d0-482f-9f2d-a0bce07d6ec2">
+
+<img width="334" alt="Sans titreecoo" src="https://github.com/bileldhifi/Projet/assets/61600395/132e07b0-2759-453b-bcea-212d64eb6b1d">
+<img width="319" alt="eco" src="https://github.com/bileldhifi/Projet/assets/61600395/c3051617-80b5-4d02-8353-7f3f89ded6d2">
+<img width="319" alt="display" src="https://github.com/bileldhifi/Projet/assets/61600395/2d6d896c-8c3f-47e5-8057-07c63b3a127a">
