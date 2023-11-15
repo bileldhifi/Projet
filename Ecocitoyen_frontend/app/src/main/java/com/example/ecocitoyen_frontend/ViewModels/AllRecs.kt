@@ -11,7 +11,7 @@ import com.example.ecocitoyen_frontend.Models.Reclamation
 import com.example.ecocitoyen_frontend.retrofit.ApiClient
 import com.example.ecocitoyen_frontend.Services.ReclamationApi
 
-class BudgetViewModel : ViewModel () {
+class AllRecs : ViewModel () {
     /***************** AFFICHAGE BY ID USER *****************/
     var recLiveData: MutableLiveData<MutableList<Reclamation>?> = MutableLiveData()
     val _recLiveData : LiveData<MutableList<Reclamation>?> = recLiveData

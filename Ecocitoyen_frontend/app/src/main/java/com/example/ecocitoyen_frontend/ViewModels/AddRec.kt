@@ -20,6 +20,7 @@ class AddRec : ViewModel() {
 
     fun addBudget(rec: Reclamation){
         val retrofit = ApiClient.getApiClient()!!.create(ReclamationApi::class.java)
+
         val addTask = retrofit.AddRec(rec)
         addTask.enqueue(object : Callback<Reclamation>{
             override fun onResponse(call: Call<Reclamation>, response: Response<Reclamation>) {

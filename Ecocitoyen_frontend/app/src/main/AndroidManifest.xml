@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
+        android:usesCleartextTraffic="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -15,13 +16,12 @@
         android:theme="@style/Theme.Ecocitoyen_frontend"
         tools:targetApi="31">
         <activity
+            android:name=".Detail_news"
+            android:exported="true"></activity>
+
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".View.News"
-            android:exported="false" />
-        <activity
-            android:name=".detail_news"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -7,24 +7,24 @@ import retrofit2.http.*
 import com.example.ecocitoyen_frontend.Models.Reclamation
 
 interface ReclamationApi {
-    @GET("reclamations/get/{user_id}")
+    @GET("/api/reclamations/get/{user_id}")
     fun getAllByUser_id(
         @Path("user_id") user_id: String,
     ): Call<MutableList<Reclamation>>
 
-    @GET("reclamations/{id}")
+    @GET("/api/reclamations/{id}")
     fun getById(
         @Path("id") id : String,
     ): Call<Reclamation>
 
-    @POST("reclamation")
+    @POST("/api/reclamations/store")
     fun AddRec(
         @Body reclamation: Reclamation
     ): Call<Reclamation>
 
 
 
-    @DELETE("reclamations/delete/{idbudget}")
+    @DELETE("/api/reclamations/delete/{idbudget}")
     fun DeleteRec(
         @Path("idbudget") idbudget: String,
     ): Call<String>

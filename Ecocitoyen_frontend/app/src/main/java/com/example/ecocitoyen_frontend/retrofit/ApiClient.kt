@@ -14,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class ApiClient {
     companion object{
-        val URL ="http://localhost:3000/api/"
+        val URL ="http://192.168.1.18:8088"
         //val URL ="http://10.0.2.2:9092/"
         //val URL="https://moody-kiwis-wear-196-203-207-178.loca.lt"
         var retrofitToken: Retrofit? = null
