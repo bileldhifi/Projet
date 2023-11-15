@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="80dp"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Type"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+></TextView>
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:entries="@array/reclamation_types" />
+    <!-- Title Input -->
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reclamation Title"/>
+
+    <!-- Description Input -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:hint="Reclamation Description"
+        android:inputType="textMultiLine"
+        android:minLines="5" />
+
+    <!-- Image Button -->
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Other Views -->
+
+        <Button
+            android:id="@+id/btnAddImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Reclamation"/>
+
+        <!-- Other Views -->
+
+    </LinearLayout>
+
+</LinearLayout>

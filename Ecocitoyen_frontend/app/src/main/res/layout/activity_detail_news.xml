@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/imgNascar"
+        android:layout_width="318dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/news" />
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="268dp"
+        android:layout_height="288dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="98dp"
+        android:background="#605151"
+        android:backgroundTint="#9EAFD1B0"
+        android:gravity="center"
+        android:lineSpacingExtra="4sp"
+        android:text="NEWS"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="78dp"
+        android:background="#FFFF"
+        android:backgroundTint="#B5DFB6"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgNascar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

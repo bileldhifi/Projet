@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ecocitoyen_frontend</string>
+    <string-array name="reclamation_types">
+        <item>Avis</item>
+        <item>Proposition</item>
+        <item>Reclamation</item>
+    </string-array>
+
+</resources>
