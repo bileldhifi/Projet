@@ -47,7 +47,6 @@ class MainActivity2 : AppCompatActivity() {
             override fun onStyleLoaded(style: Style) {
             }
         })
-        Log.d("bilel", "LAT : ")
         val call: Call<List<Location>> = apiService.getPost()
         call.enqueue(object : Callback<List<Location>> {
             override fun onResponse(call: Call<List<Location>>, response: Response<List<Location>>) {
@@ -56,10 +55,11 @@ class MainActivity2 : AppCompatActivity() {
                     response.body()?.let {location->
                         // Update the UI on the main thread
                         runOnUiThread {
-                            Log.d("bilel","aaaaa")
-                            Log.d("bilel", "LAT : ${location[0].lat}")
-                            Log.d("bilel","LONG : ${location[0].long}")
-                            addAnnotationToMap(location[0].lat, location[0].long) // add annotation when the style map is loaded
+                            //addAnnotationToMap(location[0].lat, location[0].long) // add annotation when the style map is loaded
+                            for (loc in location) {
+                                addAnnotationToMap(
+                                    loc.lat, loc.long)
+                            }
                         }
                     }
                 } else {
