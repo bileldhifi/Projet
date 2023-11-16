@@ -54,11 +54,6 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));////////
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-
-
-
-
-
 app.listen(port, () => {
   console.log(`Server is running on port`, port);
 });
