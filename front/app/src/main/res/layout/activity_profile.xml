@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background or User Photo -->
+    <ImageView
+        android:id="@+id/imageViewUserPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/default_user_photo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp" />
+
+    <!-- User Name and Age -->
+    <TextView
+        android:id="@+id/textViewUserNameAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name, Age"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:layout_below="@id/imageViewUserPhoto"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp" />
+
+    <!-- About Me -->
+    <TextView
+        android:id="@+id/textViewAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me: "
+        android:textSize="16sp"
+        android:layout_below="@id/textViewUserNameAge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Other User Information -->
+    <!-- Add TextViews for other user information as needed -->
+
+</RelativeLayout>

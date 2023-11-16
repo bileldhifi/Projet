@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_login" /> <!-- Replace with your image -->
+
+    <!-- EditText for Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- Button for Login -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg_rounded"
+    android:layout_below="@id/editTextPassword"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/textViewForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+
+    android:layout_below="@id/buttonLogin"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:clickable="true"
+    android:onClick="forgotPasswordClicked" />
+
+
+</RelativeLayout>

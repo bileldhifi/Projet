@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!-- Background Image -->
+  <ImageView
+      android:id="@+id/backgroundImage"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/bg1" />
+
+  <!-- TextView: changeSocietyText -->
+  <TextView
+      android:id="@+id/changeSocietyText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="We Need To Change Our Society"
+      android:textColor="#FFFFFF"
+      android:textSize="24dp"
+      android:layout_marginLeft="18dp"
+      android:layout_marginTop="458dp"/>
+
+  <!-- TextView: descriptionText -->
+  <TextView
+      android:id="@+id/descriptionText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Empower change through giving. Join us in a shared journey of compassion. Create an account now to contribute and make a lasting impact!"
+      android:textColor="#FFFFFF"
+      android:layout_marginLeft="17dp"
+      android:layout_marginTop="535dp"/>
+
+  <!-- ImageButton: supButton -->
+  <ImageButton
+      android:id="@+id/supButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/btup"
+      android:layout_below="@+id/descriptionText"
+      android:layout_marginTop="10dp"
+      android:layout_marginLeft="17dp"
+      android:contentDescription="@string/skip_button_description"/>
+
+  <!-- ImageButton: logButton -->
+  <ImageButton
+      android:id="@+id/logButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/descriptionText"
+      android:layout_marginLeft="10dp"
+      android:layout_marginTop="80dp"
+      android:contentDescription="@string/next_button_description"
+      android:src="@drawable/btlog" />
+</RelativeLayout>

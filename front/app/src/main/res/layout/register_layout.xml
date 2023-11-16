@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+
+    <!-- ImageButton for Facebook -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg5" />
+
+    <ImageButton
+        android:id="@+id/btfb"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/btfb" />
+
+    <!-- ImageButton for Google -->
+    <ImageButton
+        android:id="@+id/btg"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btfb"
+        android:layout_alignStart="@id/btfb"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/btg" />
+
+    <!-- ImageButton for Apple -->
+    <ImageButton
+        android:id="@+id/btap"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btg"
+        android:layout_alignStart="@id/btg"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/btap" />
+
+    <!-- TextView: Or -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="#3EB489"
+        android:textSize="16dp"
+        android:layout_below="@id/btap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- ImageButton for Forgot Password -->
+    <ImageButton
+        android:id="@+id/btpswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btap"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/btpswd" />
+
+    <!-- TextView: Don't have an account? -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="already have an account ? "
+        android:textColor="#000000"
+        android:layout_below="@id/btpswd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <!-- Hyperlink TextView: Sign up -->
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#3EB489"
+        android:layout_below="@id/btpswd"
+        android:layout_marginStart="2dp"
+        android:clickable="true" />
+</RelativeLayout>

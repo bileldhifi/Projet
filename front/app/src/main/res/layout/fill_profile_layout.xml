@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_fill_profile" /> <!-- Replace with your image -->
+
+    <!-- EditText for First Name -->
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Last Name -->
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextFirstName"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Address -->
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextLastName"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Age -->
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextAddress"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Phone -->
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Email -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextPhone"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Password -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for About Me -->
+    <EditText
+        android:id="@+id/editTextAboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="About Me"
+        android:inputType="textMultiLine"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- EditText for Photo URL -->
+    <EditText
+        android:id="@+id/editTextPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Photo URL"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/editTextAboutMe"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <!-- Button for Save Profile -->
+    <Button
+        android:id="@+id/buttonSaveProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Profile"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg_rounded"
+    android:layout_below="@id/editTextPhoto"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
