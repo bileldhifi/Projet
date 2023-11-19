@@ -10,7 +10,6 @@ import kotlinx.android.synthetic.main.activity_menu_client.*
 
 class menuClient : AppCompatActivity() {
     private val homeFragment= HomeFragment()
-    private val organizationFragment= OrganizationFragment()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_client)
@@ -20,7 +19,7 @@ buttonNavigation.setOnNavigationItemSelectedListener{
     when (it.itemId)
     {
         R.id.home->replaceFragment(homeFragment)
-        R.id.organization->replaceFragment(organizationFragment)
+       // R.id.organization->replaceFragment(organizationFragment)
     }
     true
 }

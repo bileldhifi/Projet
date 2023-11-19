@@ -1946,23 +1946,16 @@ int font kanitregular 0x7f080001
 int font kaushanscript 0x7f080002
 int font milkyniceclean 0x7f080003
 int id ALT 0x7f090000
-int id AdresseOrganization 0x7f090201
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
 int id DateEvent 0x7f090004
-int id DateOrganization 0x7f0901fb
-int id EmailOrganisation 0x7f090204
 int id EventImage 0x7f090005
 int id FUNCTION 0x7f090006
 int id ImageEvent 0x7f090007
-int id ImageOrg 0x7f0901fc
 int id LieuEvent 0x7f090008
-int id LieuOrganization 0x7f0901fd
 int id META 0x7f090009
 int id NO_DEBUG 0x7f09000a
-int id NameOrganization 0x7f090203
-int id OrganizationImage 0x7f0901fe
 int id QrCode 0x7f09000b
 int id SHIFT 0x7f09000c
 int id SHOW_ALL 0x7f09000d
@@ -1972,7 +1965,6 @@ int id SYM 0x7f090010
 int id TOP_END 0x7f090011
 int id TOP_START 0x7f090012
 int id TitleEvent 0x7f090013
-int id TitleOrganization 0x7f0901ff
 int id accelerate 0x7f090014
 int id accessibility_action_clickable_span 0x7f090015
 int id accessibility_custom_action_0 0x7f090016
@@ -2110,7 +2102,6 @@ int id default_activity_button 0x7f090099
 int id deltaRelative 0x7f09009a
 int id dependency_ordering 0x7f09009b
 int id descriptionEvent 0x7f09009c
-int id descriptionOrganization 0x7f090200
 int id design_bottom_sheet 0x7f09009d
 int id design_menu_item_action_area 0x7f09009e
 int id design_menu_item_action_area_stub 0x7f09009f
@@ -2317,7 +2308,6 @@ int id radio 0x7f090166
 int id ratio 0x7f090167
 int id rectangles 0x7f090168
 int id recyclerNews 0x7f090169
-int id recyclerorganisation 0x7f0901f8
 int id reverseSawtooth 0x7f09016a
 int id right 0x7f09016b
 int id rightToLeft 0x7f09016c
@@ -2528,7 +2518,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
-int layout activity_d_organization 0x7f0c0080
 int layout activity_details 0x7f0c001c
 int layout activity_main 0x7f0c001d
 int layout activity_menu_client 0x7f0c001e
@@ -2549,7 +2538,6 @@ int layout design_navigation_menu_item 0x7f0c002c
 int layout design_text_input_end_icon 0x7f0c002d
 int layout design_text_input_start_icon 0x7f0c002e
 int layout fragment_home 0x7f0c002f
-int layout fragment_organization 0x7f0c0081
 int layout material_chip_input_combo 0x7f0c0030
 int layout material_clock_display 0x7f0c0031
 int layout material_clock_display_divider 0x7f0c0032
@@ -2609,7 +2597,6 @@ int layout notification_template_media 0x7f0c0067
 int layout notification_template_media_custom 0x7f0c0068
 int layout notification_template_part_chronometer 0x7f0c0069
 int layout notification_template_part_time 0x7f0c006a
-int layout org_single_item 0x7f0c0082
 int layout popup_layout 0x7f0c006b
 int layout select_dialog_item_material 0x7f0c006c
 int layout select_dialog_multichoice_material 0x7f0c006d
