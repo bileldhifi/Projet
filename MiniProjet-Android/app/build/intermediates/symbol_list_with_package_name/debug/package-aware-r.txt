@@ -1912,7 +1912,6 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
-drawable nextarrow
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1952,12 +1951,16 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DateEvent
+id DateOrganization
 id EventImage
 id FUNCTION
 id ImageEvent
+id ImageOrg
 id LieuEvent
+id LieuOrganization
 id META
 id NO_DEBUG
+id OrganizationImage
 id QrCode
 id SHIFT
 id SHOW_ALL
@@ -1967,6 +1970,7 @@ id SYM
 id TOP_END
 id TOP_START
 id TitleEvent
+id TitleOrganization
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2104,6 +2108,7 @@ id default_activity_button
 id deltaRelative
 id dependency_ordering
 id descriptionEvent
+id descriptionOrganization
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2285,6 +2290,7 @@ id off
 id on
 id onInterceptTouchReturnSwipe
 id organisation
+id organization
 id outline
 id outward
 id overshoot
@@ -2309,6 +2315,7 @@ id radio
 id ratio
 id rectangles
 id recyclerNews
+id recyclerorganisation
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2519,6 +2526,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_d_organization
 layout activity_details
 layout activity_main
 layout activity_menu_client
@@ -2539,6 +2547,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_home
+layout fragment_organization
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2598,6 +2607,7 @@ layout notification_template_media
 layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout org_single_item
 layout popup_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -2621,6 +2631,7 @@ layout text_view_without_line_height
 menu eventmenu
 menu example_menu
 menu example_menu2
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

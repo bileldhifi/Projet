@@ -9,6 +9,7 @@ const swaggerUi = require("swagger-ui-express");
 
 const eventsRoute = require('./routes/events')
 
+const organizationRoute = require('./routes/organization'); // Import the organization route
 
 
 var cors = require('cors');
@@ -59,3 +60,4 @@ app.listen(port, () => {
 });
 
 app.use('/events', eventsRoute)//swagger done
+app.use('/organizations', organizationRoute);

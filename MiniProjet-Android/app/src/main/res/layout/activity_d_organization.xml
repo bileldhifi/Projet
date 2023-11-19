@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailsActivity">
+    tools:context=".OrganizationActivity">
 
 
     <ImageView
@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.212" />
 
     <TextView
-        android:id="@+id/TitleEvent"
+        android:id="@+id/TitleOrganization"
         android:layout_width="123dp"
         android:layout_height="38dp"
         android:fontFamily="@font/almondnougat"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.075" />
 
     <TextView
-        android:id="@+id/DateEvent"
+        android:id="@+id/DateOrganization"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
@@ -44,15 +44,15 @@
         android:textColor="@color/turquoise1"
         android:textSize="15dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/LieuEvent"
+        app:layout_constraintBottom_toTopOf="@+id/LieuOrganization"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.169"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/descriptionEvent"
+        app:layout_constraintTop_toTopOf="@+id/descriptionOrganization"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/LieuEvent"
+        android:id="@+id/LieuOrganization"
         android:layout_width="71dp"
         android:layout_height="22dp"
         android:layout_marginTop="172dp"
@@ -64,27 +64,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/descriptionEvent" />
+        app:layout_constraintTop_toTopOf="@+id/descriptionOrganization" />
+
 
     <TextView
-        android:id="@+id/organisation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        android:fontFamily="@font/almondnougat"
-        android:text="Club ariana"
-        android:textColor="@color/turquoise1"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.174"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/descriptionEvent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/descriptionEvent"
+        android:id="@+id/descriptionOrganization"
         android:layout_width="385dp"
         android:layout_height="113dp"
         android:layout_marginTop="11dp"
@@ -118,9 +102,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="121dp"
         android:layout_marginEnd="7dp"
-        app:layout_constraintEnd_toStartOf="@+id/DateEvent"
+        app:layout_constraintEnd_toStartOf="@+id/DateOrganization"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/descriptionEvent"
+        app:layout_constraintTop_toTopOf="@+id/descriptionOrganization"
         app:srcCompat="@drawable/isondate" />
 
     <ImageView
@@ -130,7 +114,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
-        app:layout_constraintEnd_toStartOf="@+id/LieuEvent"
+        app:layout_constraintEnd_toStartOf="@+id/LieuOrganization"
         app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
@@ -149,20 +133,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/organization" />
 
-    <Button
-        android:id="@+id/qrcode"
-        android:layout_width="41dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="52dp"
-        android:background="@drawable/qrcode"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.768"
-        app:layout_constraintStart_toStartOf="@+id/TitleEvent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-    </Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
