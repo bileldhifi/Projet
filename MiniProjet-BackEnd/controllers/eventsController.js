@@ -6,6 +6,7 @@ const qr = require("qrcode");
 const index = (req, res, next) => {
   events
     .find()
+    //.populate('organization') 
     .then((events) => {
       res.json({
         events,

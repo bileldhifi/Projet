@@ -7,6 +7,35 @@
     tools:context=".OrganizationActivity">
 
 
+    <TextView
+        android:id="@+id/EmailOrganisation"
+        android:layout_width="71dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="@font/almondnougat"
+        android:text="Email Organization"
+        android:textColor="@color/turquoise1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/descriptionOrganization" />
+
+    <TextView
+        android:id="@+id/LieuOrganization"
+        android:layout_width="71dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="288dp"
+        android:fontFamily="@font/almondnougat"
+        android:text="Lieu Organization"
+        android:textColor="@color/turquoise1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/descriptionOrganization" />
+
     <ImageView
         android:id="@+id/ImageEvent"
         android:layout_width="385dp"
@@ -18,7 +47,7 @@
         app:layout_constraintVertical_bias="0.212" />
 
     <TextView
-        android:id="@+id/TitleOrganization"
+        android:id="@+id/NameOrganization"
         android:layout_width="123dp"
         android:layout_height="38dp"
         android:fontFamily="@font/almondnougat"
@@ -52,12 +81,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/LieuOrganization"
+        android:id="@+id/AdresseOrganization"
         android:layout_width="71dp"
         android:layout_height="22dp"
         android:layout_marginTop="172dp"
         android:fontFamily="@font/almondnougat"
-        android:text="Ariana"
+        android:text="Adresse Organization"
         android:textColor="@color/turquoise1"
         android:textSize="15dp"
         android:textStyle="bold"

@@ -31,7 +31,7 @@ class OrgAdapter(var OrganizationList: ListOrganization) : RecyclerView.Adapter<
        val email = OrganizationList.organization[position].email
         //val qrcode = NewsList.events[position].qrcode
         // holder.UserPic.setImageResource(NewsList[position].userPic)
-        holder.TitleOrganization.text=title
+        holder.NameOrganization.text=title
         holder.LieuOrganization.text = address
         holder.DateOrganization.text = date
        // Picasso.get().load("http:///10.0.2.2:3000/"+image).into(holder.ImageEvent);
@@ -53,12 +53,7 @@ class OrgAdapter(var OrganizationList: ListOrganization) : RecyclerView.Adapter<
             holder.itemView.context.startActivity(intent)
         }
 
-        /* holder.btnDelete.setOnClickListener {
-                 //TODO 13 "Delete a champion from the database and refresh the recyclerView"
-                 AppDataBase.getDatabase(holder.itemView.context).champDao().delete(championsList[position])
-                 championsList.removeAt(position)
-                 notifyDataSetChanged()
-             }*/
+
 
     }
     override fun getItemCount() = OrganizationList.organization.size

@@ -21,7 +21,13 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView AdresseOrganization;
+
+  @NonNull
   public final TextView DateOrganization;
+
+  @NonNull
+  public final TextView EmailOrganisation;
 
   @NonNull
   public final ImageView ImageEvent;
@@ -30,7 +36,7 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
   public final TextView LieuOrganization;
 
   @NonNull
-  public final TextView TitleOrganization;
+  public final TextView NameOrganization;
 
   @NonNull
   public final ImageView back;
@@ -48,15 +54,18 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
   public final ImageView imageView7;
 
   private ActivityDOrganizationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView DateOrganization, @NonNull ImageView ImageEvent,
-      @NonNull TextView LieuOrganization, @NonNull TextView TitleOrganization,
+      @NonNull TextView AdresseOrganization, @NonNull TextView DateOrganization,
+      @NonNull TextView EmailOrganisation, @NonNull ImageView ImageEvent,
+      @NonNull TextView LieuOrganization, @NonNull TextView NameOrganization,
       @NonNull ImageView back, @NonNull TextView descriptionOrganization,
       @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ImageView imageView7) {
     this.rootView = rootView;
+    this.AdresseOrganization = AdresseOrganization;
     this.DateOrganization = DateOrganization;
+    this.EmailOrganisation = EmailOrganisation;
     this.ImageEvent = ImageEvent;
     this.LieuOrganization = LieuOrganization;
-    this.TitleOrganization = TitleOrganization;
+    this.NameOrganization = NameOrganization;
     this.back = back;
     this.descriptionOrganization = descriptionOrganization;
     this.imageView3 = imageView3;
@@ -91,9 +100,21 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.AdresseOrganization;
+      TextView AdresseOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (AdresseOrganization == null) {
+        break missingId;
+      }
+
       id = R.id.DateOrganization;
       TextView DateOrganization = ViewBindings.findChildViewById(rootView, id);
       if (DateOrganization == null) {
+        break missingId;
+      }
+
+      id = R.id.EmailOrganisation;
+      TextView EmailOrganisation = ViewBindings.findChildViewById(rootView, id);
+      if (EmailOrganisation == null) {
         break missingId;
       }
 
@@ -109,9 +130,9 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.TitleOrganization;
-      TextView TitleOrganization = ViewBindings.findChildViewById(rootView, id);
-      if (TitleOrganization == null) {
+      id = R.id.NameOrganization;
+      TextView NameOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (NameOrganization == null) {
         break missingId;
       }
 
@@ -145,9 +166,9 @@ public final class ActivityDOrganizationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDOrganizationBinding((ConstraintLayout) rootView, DateOrganization,
-          ImageEvent, LieuOrganization, TitleOrganization, back, descriptionOrganization,
-          imageView3, imageView4, imageView7);
+      return new ActivityDOrganizationBinding((ConstraintLayout) rootView, AdresseOrganization,
+          DateOrganization, EmailOrganisation, ImageEvent, LieuOrganization, NameOrganization, back,
+          descriptionOrganization, imageView3, imageView4, imageView7);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

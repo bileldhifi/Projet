@@ -19,17 +19,18 @@ import android.widget.PopupWindow
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
+import com.example.front.data.Organization
 import com.squareup.picasso.Picasso
 
 
 class OrganizationActivity : AppCompatActivity() {
 
-    lateinit var titleOrganization : TextView
-    lateinit var descriptionOrganization : TextView
+    lateinit var nameOrganization : TextView
     lateinit var dateOrganization : TextView
-    lateinit var lieuOrganization : TextView
-   // lateinit var organisation : TextView
-   // lateinit var imageEvent : ImageView
+    lateinit var adresseOrganization : TextView
+    lateinit var emailOrganization : TextView
+    lateinit var lieuOrganisation : TextView
+    lateinit var lienOrganization : ImageView
     // lateinit var  qrcode : ImageView
    // lateinit var image: Image
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +41,7 @@ class OrganizationActivity : AppCompatActivity() {
        //val popup_layout: View = inflater.inflate(R.layout.popup_layout, null, false)
         val name = intent.getStringExtra("name")
         val date = intent.getStringExtra("date")
-       val description = intent.getStringExtra("description")
+       val lien = intent.getStringExtra("lien")
        val email = intent.getStringExtra("email")
        val address= intent.getStringExtra("address")
        //val organisationH = intent.getStringExtra("organisation")
@@ -48,20 +49,20 @@ class OrganizationActivity : AppCompatActivity() {
 
        //Log.i("testt",qrcodeh.toString())
 
-        titleOrganization = findViewById(R.id.TitleOrganization)
-        descriptionOrganization = findViewById(R.id.descriptionOrganization)
-        dateOrganization = findViewById(R.id.DateOrganization)
-         lieuOrganization = findViewById(R.id.LieuOrganization)
-      //  organisation= findViewById(R.id.organisation)
-      // imageEvent = findViewById(R.id.ImageEvent)
+       nameOrganization = findViewById(R.id.NameOrganization)
+       dateOrganization = findViewById(R.id.DateOrganization)
+       adresseOrganization = findViewById(R.id.AdresseOrganization)
+       lieuOrganisation = findViewById(R.id.LieuOrganization)
+       emailOrganization = findViewById(R.id.EmailOrganisation)
+       // lienOrganization = findViewById(R.id.LienOrganization)
 
 
 
-       titleOrganization.text = name
-        descriptionOrganization.text = email
+       nameOrganization.text = name
+       lieuOrganisation.text = lien
          dateOrganization.text = date
-       lieuOrganization.text = address
-       //organisation.text = organisationH
+       adresseOrganization.text = address
+       emailOrganization.text = email
 
       // Picasso.get().load("http://10.0.2.2:3000/"+image).into(imageEvent);
 
@@ -91,7 +92,7 @@ class OrganizationActivity : AppCompatActivity() {
                  //  val popupWindow = PopupWindow(
                   //     popupView,
                   //     LinearLayout.LayoutParams.WRAP_CONTENT,
-                       LinearLayout.LayoutParams.WRAP_CONTENT
+                     //  LinearLayout.LayoutParams.WRAP_CONTENT
                    //)
 
                    // Obtenez une référence au bouton de fermeture dans la popup

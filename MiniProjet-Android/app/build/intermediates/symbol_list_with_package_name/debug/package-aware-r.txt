@@ -1947,11 +1947,13 @@ font kanitregular
 font kaushanscript
 font milkyniceclean
 id ALT
+id AdresseOrganization
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id DateEvent
 id DateOrganization
+id EmailOrganisation
 id EventImage
 id FUNCTION
 id ImageEvent
@@ -1960,6 +1962,7 @@ id LieuEvent
 id LieuOrganization
 id META
 id NO_DEBUG
+id NameOrganization
 id OrganizationImage
 id QrCode
 id SHIFT
