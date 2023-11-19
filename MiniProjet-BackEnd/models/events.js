@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const OrganizationEnum = require('./organizationEnum');
 
 
     const eventsSchema = Schema({
@@ -8,8 +9,7 @@ const Schema = mongoose.Schema;
         eventLocation: {type:String},
         eventDescription: {type:String},
         image: { type: String }, 
-        organization: { type: Schema.Types.ObjectId, ref: 'Organization' }, // Utilisez une référence à l'objet Organization
- 
+        organization: { type: String, enum: OrganizationEnum },
         //organization: { type: String }, 
         qrcode:{type:String}
       });
