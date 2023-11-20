@@ -7,27 +7,19 @@
     tools:context=".MainActivity2"
     >
 
-    <EditText
-        android:id="@+id/querytext"
-        android:layout_width="0dp"
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="344dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_toStartOf="@+id/focusLocation"
-        android:autofillHints="@null"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="32dp"
+        android:layout_toStartOf="@+id/currentlocation"
         android:elevation="4dp"
-        android:hint="Search for places"
-        android:inputType="text"
-        android:minHeight="60dp"
-        android:background="@drawable/edit_text_background"
-        android:paddingHorizontal="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:iconifiedByDefault="false"
+        android:queryHint="Search for places / category" />
 
     <com.mapbox.maps.MapView
         android:id="@+id/mapView"
@@ -40,7 +32,7 @@
     </com.mapbox.maps.MapView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/focusLocation"
+        android:id="@+id/currentlocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -52,7 +44,6 @@
         android:backgroundTint="@color/green"
         android:src="@drawable/mylocation"
         android:contentDescription="TODO">
-
     </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 
