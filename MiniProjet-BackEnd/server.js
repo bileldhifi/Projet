@@ -29,9 +29,10 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // MongoDB connection
+const connectionString = 'mongodb+srv://bilel:bilel@cluster0.xspsj0f.mongodb.net/?retryWrites=true&w=majority';
 mongoose.set('debug', true);
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://127.0.0.1:27017/Eco')
+mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
 

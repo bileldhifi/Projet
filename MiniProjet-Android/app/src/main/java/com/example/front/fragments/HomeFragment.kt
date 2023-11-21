@@ -77,15 +77,6 @@ private fun doList() {
 
 
 
-        //recylcerNews = view?.findViewById(R.id.recyclerNews)!!
-        //  val newsist : ListNews = response.body() as ListNews
-        // var newsList : MutableList<NewsRespons.News> = ArrayList()
-        //  recylcerNews = view?.findViewById(R.id.recyclerNews)!!
-
-        // var newsList : MutableList<NewsRespons> = ArrayList()
-        //  newsList.add(NewsRespons(response.body().News))
-
-
 
 
 

@@ -11,86 +11,66 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.front.*
 import com.example.front.Api.OrganizationsApi
-import com.example.front.EventsList.OrganizationsAdapter
+import com.example.front.OrganizationsList.OrganizationsAdapter  // Use the correct import statement
 import com.example.front.Utils.RetrofitClient
 import com.example.front.data.ListOrganizations
-import com.example.front.data.Organizations
 import com.google.gson.Gson
-
-
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import org.json.JSONObject
-
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class OrganizationFragment : Fragment() {
-    lateinit var recylcerOrganization: RecyclerView
-    lateinit var recylcerOrganizationsAdapter: OrganizationsAdapter
-     override fun onCreateView(
+    private lateinit var recyclerOrganization: RecyclerView
+    private lateinit var recyclerOrganizationAdapter: OrganizationsAdapter
+
+    override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_organization, container, false)
+
 
         doList()
         return view
     }
-private fun doList() {
 
+    private fun doList() {
         val paramObject1 = JSONObject()
 
         val jsonParser = JsonParser()
         var gsonObject1 = jsonParser.parse(paramObject1.toString()) as JsonObject
+
         val retro = RetrofitClient().getRetroClinetInstance().create(OrganizationsApi::class.java)
 
-        // get all events  = listEvents()
-        retro.listOrganizations().enqueue(object :Callback<JsonObject>{
+        retro.listOrganizations().enqueue(object : Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
-                Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
-                recylcerOrganization = view?.findViewById(R.id.recyclerOrganization) !!
-                val jsonString = response.body().toString()
-                Log.d("JsonString", jsonString)
+                recyclerOrganization = view?.findViewById(R.id.recyclerOrganization) !!
 
-                val gson = Gson()
+                Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
+                val jsonString = response.body().toString()
+                        // Log.d("JsonString", jsonString)
+
+                        val gson = Gson()
                 val listOrganizations = gson.fromJson(jsonString, ListOrganizations::class.java)
 
                 val linearLayoutManager:LinearLayoutManager = LinearLayoutManager(context)
                 linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
-               recylcerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
 
-                recylcerOrganization.adapter = recylcerOrganizationsAdapter
+                // Set the data directly in the adapter without using updateData
+                        recyclerOrganizationAdapter = OrganizationsAdapter(listOrganizations)
+                        recyclerOrganization.adapter = recyclerOrganizationAdapter
+                recyclerOrganization.layoutManager = linearLayoutManager
+                    }
 
-                recylcerOrganization.layoutManager = linearLayoutManager
-
-            }
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
-                Toast.makeText(context, "Liste  ", Toast.LENGTH_SHORT).show()
+                Log.e("OrganizationFragment", "Failed: ${t.message}")
+                // Display an appropriate message to the user if needed
             }
         })
-
-
-
-
-        //recylcerNews = view?.findViewById(R.id.recyclerNews)!!
-        //  val newsist : ListNews = response.body() as ListNews
-        // var newsList : MutableList<NewsRespons.News> = ArrayList()
-        //  recylcerNews = view?.findViewById(R.id.recyclerNews)!!
-
-        // var newsList : MutableList<NewsRespons> = ArrayList()
-        //  newsList.add(NewsRespons(response.body().News))
-
-
-
-
-
-
-
-
     }
 }
