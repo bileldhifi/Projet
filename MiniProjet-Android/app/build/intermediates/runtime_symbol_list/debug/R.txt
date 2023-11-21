@@ -1837,6 +1837,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070053
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070054
 int drawable abc_textfield_search_material 0x7f070055
 int drawable abc_vector_test 0x7f070056
+int drawable adress 0x7f0700c0
 int drawable avd_hide_password 0x7f070057
 int drawable avd_show_password 0x7f070058
 int drawable back 0x7f070059
@@ -1849,12 +1850,15 @@ int drawable btn_radio_off_mtrl 0x7f07005f
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f070060
 int drawable btn_radio_on_mtrl 0x7f070061
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070062
+int drawable calendar 0x7f0700c1
+int drawable charity 0x7f0700c2
 int drawable design_fab_background 0x7f070063
 int drawable design_ic_visibility 0x7f070064
 int drawable design_ic_visibility_off 0x7f070065
 int drawable design_password_eye 0x7f070066
 int drawable design_snackbar_background 0x7f070067
 int drawable detailsnewstitle 0x7f070068
+int drawable envelope 0x7f0700c3
 int drawable eye 0x7f070069
 int drawable groupa 0x7f07006a
 int drawable home_selector 0x7f07006b
@@ -1926,6 +1930,7 @@ int drawable notification_tile_bg 0x7f0700ac
 int drawable notify_panel_notification_icon_bg 0x7f0700ad
 int drawable organization 0x7f0700ae
 int drawable person_selector 0x7f0700af
+int drawable phone 0x7f0700c4
 int drawable pinicon 0x7f0700b0
 int drawable popup_background 0x7f0700b1
 int drawable qrcode 0x7f0700b2
@@ -1947,6 +1952,7 @@ int font kanitregular 0x7f080001
 int font kaushanscript 0x7f080002
 int font milkyniceclean 0x7f080003
 int id ALT 0x7f090000
+int id AdressOrganization 0x7f0901f9
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
@@ -1954,9 +1960,9 @@ int id DateEvent 0x7f090004
 int id EventImage 0x7f090005
 int id FUNCTION 0x7f090006
 int id ImageEvent 0x7f090007
-int id LieuEvent 0x7f090008
 int id META 0x7f090009
 int id NO_DEBUG 0x7f09000a
+int id NameOrganization 0x7f0901fa
 int id QrCode 0x7f09000b
 int id SHIFT 0x7f09000c
 int id SHOW_ALL 0x7f09000d
@@ -1965,7 +1971,6 @@ int id SHOW_PROGRESS 0x7f09000f
 int id SYM 0x7f090010
 int id TOP_END 0x7f090011
 int id TOP_START 0x7f090012
-int id TitleEvent 0x7f090013
 int id accelerate 0x7f090014
 int id accessibility_action_clickable_span 0x7f090015
 int id accessibility_custom_action_0 0x7f090016
@@ -2095,6 +2100,7 @@ int id currentState 0x7f090091
 int id custom 0x7f090092
 int id customPanel 0x7f090093
 int id cut 0x7f090094
+int id dateOrganization 0x7f0901fb
 int id date_picker_actions 0x7f090095
 int id decelerate 0x7f090096
 int id decelerateAndComplete 0x7f090097
@@ -2103,6 +2109,7 @@ int id default_activity_button 0x7f090099
 int id deltaRelative 0x7f09009a
 int id dependency_ordering 0x7f09009b
 int id descriptionEvent 0x7f09009c
+int id descriptionOrganization 0x7f0901fc
 int id design_bottom_sheet 0x7f09009d
 int id design_menu_item_action_area 0x7f09009e
 int id design_menu_item_action_area_stub 0x7f09009f
@@ -2132,6 +2139,7 @@ int id easeOut 0x7f0900b6
 int id east 0x7f0900b7
 int id edit_query 0x7f0900b8
 int id elastic 0x7f0900b9
+int id emailOrganization 0x7f0901fd
 int id end 0x7f0900ba
 int id endToStart 0x7f0900bb
 int id end_padder 0x7f0900bc
@@ -2177,11 +2185,15 @@ int id ignore 0x7f0900e3
 int id ignoreRequest 0x7f0900e4
 int id image 0x7f0900e5
 int id imageView 0x7f0900e6
+int id imageView10 0x7f0901fe
+int id imageView11 0x7f0901ff
 int id imageView2 0x7f0900e7
 int id imageView3 0x7f0900e8
 int id imageView4 0x7f0900e9
 int id imageView5 0x7f0900ea
 int id imageView7 0x7f0900eb
+int id imageView8 0x7f090200
+int id imageView9 0x7f090201
 int id immediateStop 0x7f0900ec
 int id included 0x7f0900ed
 int id info 0x7f0900ee
@@ -2299,6 +2311,7 @@ int id path 0x7f09015d
 int id pathRelative 0x7f09015e
 int id peekHeight 0x7f09015f
 int id percent 0x7f090160
+int id phoneOrganization 0x7f090202
 int id pin 0x7f090161
 int id position 0x7f090162
 int id postLayout 0x7f090163
@@ -2309,6 +2322,7 @@ int id radio 0x7f090167
 int id ratio 0x7f090168
 int id rectangles 0x7f090169
 int id recyclerNews 0x7f09016a
+int id recyclerOrganization 0x7f090203
 int id reverseSawtooth 0x7f09016b
 int id right 0x7f09016c
 int id rightToLeft 0x7f09016d
@@ -2539,6 +2553,7 @@ int layout design_navigation_menu_item 0x7f0c002c
 int layout design_text_input_end_icon 0x7f0c002d
 int layout design_text_input_start_icon 0x7f0c002e
 int layout fragment_home 0x7f0c002f
+int layout fragment_organization 0x7f0c0080
 int layout material_chip_input_combo 0x7f0c0030
 int layout material_clock_display 0x7f0c0031
 int layout material_clock_display_divider 0x7f0c0032
@@ -2598,6 +2613,7 @@ int layout notification_template_media 0x7f0c0067
 int layout notification_template_media_custom 0x7f0c0068
 int layout notification_template_part_chronometer 0x7f0c0069
 int layout notification_template_part_time 0x7f0c006a
+int layout organization_single_item 0x7f0c007f
 int layout popup_layout 0x7f0c006b
 int layout select_dialog_item_material 0x7f0c006c
 int layout select_dialog_multichoice_material 0x7f0c006d

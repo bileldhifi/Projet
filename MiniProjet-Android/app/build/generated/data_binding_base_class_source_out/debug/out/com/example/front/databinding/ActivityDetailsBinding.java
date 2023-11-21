@@ -22,16 +22,16 @@ public final class ActivityDetailsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView AdressOrganization;
+
+  @NonNull
   public final TextView DateEvent;
 
   @NonNull
   public final ImageView ImageEvent;
 
   @NonNull
-  public final TextView LieuEvent;
-
-  @NonNull
-  public final TextView TitleEvent;
+  public final TextView NameOrganization;
 
   @NonNull
   public final ImageView back;
@@ -54,16 +54,17 @@ public final class ActivityDetailsBinding implements ViewBinding {
   @NonNull
   public final Button qrcode;
 
-  private ActivityDetailsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView DateEvent,
-      @NonNull ImageView ImageEvent, @NonNull TextView LieuEvent, @NonNull TextView TitleEvent,
-      @NonNull ImageView back, @NonNull TextView descriptionEvent, @NonNull ImageView imageView3,
+  private ActivityDetailsBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView AdressOrganization, @NonNull TextView DateEvent,
+      @NonNull ImageView ImageEvent, @NonNull TextView NameOrganization, @NonNull ImageView back,
+      @NonNull TextView descriptionEvent, @NonNull ImageView imageView3,
       @NonNull ImageView imageView4, @NonNull ImageView imageView7, @NonNull TextView organisation,
       @NonNull Button qrcode) {
     this.rootView = rootView;
+    this.AdressOrganization = AdressOrganization;
     this.DateEvent = DateEvent;
     this.ImageEvent = ImageEvent;
-    this.LieuEvent = LieuEvent;
-    this.TitleEvent = TitleEvent;
+    this.NameOrganization = NameOrganization;
     this.back = back;
     this.descriptionEvent = descriptionEvent;
     this.imageView3 = imageView3;
@@ -100,6 +101,12 @@ public final class ActivityDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.AdressOrganization;
+      TextView AdressOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (AdressOrganization == null) {
+        break missingId;
+      }
+
       id = R.id.DateEvent;
       TextView DateEvent = ViewBindings.findChildViewById(rootView, id);
       if (DateEvent == null) {
@@ -112,15 +119,9 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.LieuEvent;
-      TextView LieuEvent = ViewBindings.findChildViewById(rootView, id);
-      if (LieuEvent == null) {
-        break missingId;
-      }
-
-      id = R.id.TitleEvent;
-      TextView TitleEvent = ViewBindings.findChildViewById(rootView, id);
-      if (TitleEvent == null) {
+      id = R.id.NameOrganization;
+      TextView NameOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (NameOrganization == null) {
         break missingId;
       }
 
@@ -166,8 +167,8 @@ public final class ActivityDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDetailsBinding((ConstraintLayout) rootView, DateEvent, ImageEvent,
-          LieuEvent, TitleEvent, back, descriptionEvent, imageView3, imageView4, imageView7,
+      return new ActivityDetailsBinding((ConstraintLayout) rootView, AdressOrganization, DateEvent,
+          ImageEvent, NameOrganization, back, descriptionEvent, imageView3, imageView4, imageView7,
           organisation, qrcode);
     }
     String missingId = rootView.getResources().getResourceName(id);
