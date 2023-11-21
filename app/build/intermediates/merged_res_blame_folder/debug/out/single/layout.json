@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/activity_category_main.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/activity_category_main.xml"
+    },
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/item_card.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/item_card.xml"
+    },
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/bottomsheet.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/bottomsheet.xml"
+    },
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/activity_donate.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/activity_donate.xml"
+    },
+    {
+        "merged": "com.example.mmmmmmmmmmm.app-mergeDebugResources-39:/layout/activity_retrofit.xml",
+        "source": "com.example.mmmmmmmmmmm.app-main-42:/layout/activity_retrofit.xml"
+    }
+]

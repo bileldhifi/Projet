@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green">#29D697</color>
+    <color name="ic_banner_background">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">mmmmmmmmmmm</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiYmlsZWxkaGlmaSIsImEiOiJjbG9zbHl0ZGMwMW5qMmlscTkwZXBveDJjIn0.gbK0VES8c3Aff7j7OfkRIw</string>
+    <style name="Base.Theme.Mmmmmmmmmmm" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Mmmmmmmmmmm" parent="Base.Theme.Mmmmmmmmmmm"/>
+</resources>

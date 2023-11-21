@@ -1,0 +1,533 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0c3098161ecf3a4685797a947958c711\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\edf347edee2ab2bf1ba2c655b0becaf5\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\1949bc8aba24e1f38eeb39b2b2556459\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0dd8b1ab21d36946bf1c177f8784ed7f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.maps:android:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\20671cc1958858384be5f49d83482c86\transformed\android-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\42e07d4e07257c879d0fdfc485fc539e\transformed\maps-annotation-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5e87051feff3221bc9459e8c32acc199\transformed\maps-localization-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.extension:maps-style:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8f38f2e7b33147b31338a8f38261f510\transformed\maps-style-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9bd2fa2c03288a95701594d6dbea6a5a\transformed\maps-logo-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ebecee31711ae02e550e774baa8b5aa\transformed\maps-compass-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\302d461c3695c3f547679eb6d6a3cdb8\transformed\maps-gestures-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f827c79aadf952ecb02c6d49004f316f\transformed\maps-attribution-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\55a5f1e423ad71a06d74038e1a078afe\transformed\maps-viewport-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5beeb4223d41c347a259e6191968c46b\transformed\maps-locationcomponent-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3416d2a00e251a33d763d2389f5e0654\transformed\maps-scalebar-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0a47aab9b88cbc55ce2897425423f38f\transformed\maps-overlay-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:2:1-24:12
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:2:1-24:12
+MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\cf7d8c241c237fca81a482b7ec5b6229\transformed\mapbox-search-android-common-1.0.0-rc.7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.search:mapbox-search-android-native:0.71.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e242764ed213de9b497ce61e307ec0b3\transformed\mapbox-search-android-native-0.71.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d06d3364663ee918186dc19b9363acb5\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapbox.common:okhttp:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\66efae48a4d36346cf3bad0e5d53b501\transformed\okhttp-23.8.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320a66b42ea9cd5b88ba29f54b323ad9\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\332a4650424110424155cef99b958cbc\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d04456ba676b47d3ea371a1e0015e335\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6d66240bd360c01e812e745e7f83372c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\586d5c7ca8def9646262fd0868e7b375\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f18632aa86795c8cbba9f836515935b7\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320d8db1db2dc2ba822012b4b45da343\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a67f1b9680a39bc6a79888ee795d29eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a9fc81e75c76892d23dde79525a8fef1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\efe4624d53ada32c7ea583fcc97e5c24\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\dd80ec53ec9468b0ff7405c0e31f90f8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f2f2039eb0bcb7f15a3e9c31c89e91e3\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\baa7dfb0ec6f4281d447191c61e66924\transformed\maps-animation-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\01c0ded11836ee3eb52bc019ba3b036d\transformed\maps-lifecycle-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ce9be3de6a2b5a9f43ec3f0dbf83c7d\transformed\maps-telemetry-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:base:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c44f576b7b2b3a0293479d7ce85d53a2\transformed\base-10.16.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:2:1-40:12
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9561d2863cf87be48217f7ab7219f677\transformed\logger-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b39acc70deae40fdca11d0d0481d9d9b\transformed\loader-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\23a5b8ba551bf1f9ff8aa786a8164ceb\transformed\common-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b5785b0f14263e4af1ed87421c60eafe\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6b5527fa58458c95ab786a91e06ccc34\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a16bbd8c7e99a4eb483d3dd581ddc315\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\65a3e69fe1a3e5c10b220028dc4b94c4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a5b703fc5d86d26f14179d978842a0f1\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9b2860b649306e6177c578fdbb00cfeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f80e3811d8888fefc07b4f38ca7ef972\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6f13bf059c55febc2fc85a528f677c7c\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0aba20422b11598fc4bb527c74e2d740\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5d0f44708e140680afcce7da543ee8be\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cb9982815f5e1bd98f11f1324b17847\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\11f9a9ef2d426f1bf3925bc6dd0363a4\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.auth0.android:jwtdecode:2.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\aaa60418b440e88e4421190455f0d28c\transformed\jwtdecode-2.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ed23e401d7870c24cd1832677a04864a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c56d1f56a9fc1c38b371df45f07f486b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\25b5a6f09989baaef593d2978d398cd0\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6cc14491d12bdb67f8ad9becc759537c\transformed\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\00d524e05b53cb37eba9383403c2c885\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\337fbde2e1985a716b49aa4262f007ec\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c5286788ada3388cea2e031d02e6ed0f\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\7df10a3995a3869fb5a5919466ed8895\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\81326a38ecd9b9a4c70095822077e561\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\203ba2d1950cd25fe8e56a03c647f5f9\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\17e15d8ae0a88e67fc3ad7e7c9694220\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9a01d20f3779827e9091c430aa5b7253\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9662e09ef789d5f47a5ff14dc311542d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cce13a0d287274fe166b8418196be66\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+	package
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:1-52:12
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:4:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:17:5-67
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:10:5-67
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:18:5-79
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:11:5-79
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:11:22-76
+application
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:15:5-50:19
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\edf347edee2ab2bf1ba2c655b0becaf5\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\edf347edee2ab2bf1ba2c655b0becaf5\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\1949bc8aba24e1f38eeb39b2b2556459\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\1949bc8aba24e1f38eeb39b2b2556459\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:12:5-22:19
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:12:5-22:19
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:12:5-22:19
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:12:5-22:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320a66b42ea9cd5b88ba29f54b323ad9\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320a66b42ea9cd5b88ba29f54b323ad9\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d04456ba676b47d3ea371a1e0015e335\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d04456ba676b47d3ea371a1e0015e335\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6d66240bd360c01e812e745e7f83372c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6d66240bd360c01e812e745e7f83372c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:21:5-31:19
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:13:5-38:19
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:13:5-38:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6cc14491d12bdb67f8ad9becc759537c\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6cc14491d12bdb67f8ad9becc759537c\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\337fbde2e1985a716b49aa4262f007ec\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\337fbde2e1985a716b49aa4262f007ec\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:20:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:18:9-54
+	android:roundIcon
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:21:9-54
+	tools:targetApi
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:25:9-29
+	android:icon
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:23:9-49
+	android:dataExtractionRules
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:17:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:24:9-44
+activity#com.example.mmmmmmmmmmm.ViewModel.DonateActivity
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:27:13-53
+activity#com.example.mmmmmmmmmmm.MainActivity2
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:29:9-31:48
+	android:exported
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:30:13-42
+activity#com.example.mmmmmmmmmmm.CategoryMain
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:exported
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:33:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:38:27-74
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:41:9-49:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:45:13-47
+	android:authorities
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:43:13-71
+	android:exported
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:42:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:46:13-48:54
+	android:resource
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:48:17-51
+	android:name
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml:47:17-67
+uses-sdk
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0c3098161ecf3a4685797a947958c711\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0c3098161ecf3a4685797a947958c711\transformed\viewbinding-8.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\edf347edee2ab2bf1ba2c655b0becaf5\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\edf347edee2ab2bf1ba2c655b0becaf5\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\1949bc8aba24e1f38eeb39b2b2556459\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\1949bc8aba24e1f38eeb39b2b2556459\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0dd8b1ab21d36946bf1c177f8784ed7f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0dd8b1ab21d36946bf1c177f8784ed7f\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.maps:android:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\20671cc1958858384be5f49d83482c86\transformed\android-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\20671cc1958858384be5f49d83482c86\transformed\android-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\42e07d4e07257c879d0fdfc485fc539e\transformed\maps-annotation-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-annotation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\42e07d4e07257c879d0fdfc485fc539e\transformed\maps-annotation-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5e87051feff3221bc9459e8c32acc199\transformed\maps-localization-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-localization:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5e87051feff3221bc9459e8c32acc199\transformed\maps-localization-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8f38f2e7b33147b31338a8f38261f510\transformed\maps-style-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.extension:maps-style:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8f38f2e7b33147b31338a8f38261f510\transformed\maps-style-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9bd2fa2c03288a95701594d6dbea6a5a\transformed\maps-logo-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-logo:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9bd2fa2c03288a95701594d6dbea6a5a\transformed\maps-logo-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ebecee31711ae02e550e774baa8b5aa\transformed\maps-compass-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-compass:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ebecee31711ae02e550e774baa8b5aa\transformed\maps-compass-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\302d461c3695c3f547679eb6d6a3cdb8\transformed\maps-gestures-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-gestures:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\302d461c3695c3f547679eb6d6a3cdb8\transformed\maps-gestures-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f827c79aadf952ecb02c6d49004f316f\transformed\maps-attribution-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-attribution:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f827c79aadf952ecb02c6d49004f316f\transformed\maps-attribution-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\55a5f1e423ad71a06d74038e1a078afe\transformed\maps-viewport-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-viewport:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\55a5f1e423ad71a06d74038e1a078afe\transformed\maps-viewport-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5beeb4223d41c347a259e6191968c46b\transformed\maps-locationcomponent-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-locationcomponent:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5beeb4223d41c347a259e6191968c46b\transformed\maps-locationcomponent-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3416d2a00e251a33d763d2389f5e0654\transformed\maps-scalebar-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-scalebar:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3416d2a00e251a33d763d2389f5e0654\transformed\maps-scalebar-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0a47aab9b88cbc55ce2897425423f38f\transformed\maps-overlay-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-overlay:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0a47aab9b88cbc55ce2897425423f38f\transformed\maps-overlay-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\cf7d8c241c237fca81a482b7ec5b6229\transformed\mapbox-search-android-common-1.0.0-rc.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.search:mapbox-search-android-common:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\cf7d8c241c237fca81a482b7ec5b6229\transformed\mapbox-search-android-common-1.0.0-rc.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.search:mapbox-search-android-native:0.71.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e242764ed213de9b497ce61e307ec0b3\transformed\mapbox-search-android-native-0.71.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.search:mapbox-search-android-native:0.71.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e242764ed213de9b497ce61e307ec0b3\transformed\mapbox-search-android-native-0.71.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d06d3364663ee918186dc19b9363acb5\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d06d3364663ee918186dc19b9363acb5\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.mapbox.common:okhttp:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\66efae48a4d36346cf3bad0e5d53b501\transformed\okhttp-23.8.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:okhttp:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\66efae48a4d36346cf3bad0e5d53b501\transformed\okhttp-23.8.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320a66b42ea9cd5b88ba29f54b323ad9\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320a66b42ea9cd5b88ba29f54b323ad9\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\332a4650424110424155cef99b958cbc\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\332a4650424110424155cef99b958cbc\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d04456ba676b47d3ea371a1e0015e335\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\d04456ba676b47d3ea371a1e0015e335\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6d66240bd360c01e812e745e7f83372c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6d66240bd360c01e812e745e7f83372c\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\586d5c7ca8def9646262fd0868e7b375\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\586d5c7ca8def9646262fd0868e7b375\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f18632aa86795c8cbba9f836515935b7\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f18632aa86795c8cbba9f836515935b7\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320d8db1db2dc2ba822012b4b45da343\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\320d8db1db2dc2ba822012b4b45da343\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a67f1b9680a39bc6a79888ee795d29eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a67f1b9680a39bc6a79888ee795d29eb\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a9fc81e75c76892d23dde79525a8fef1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a9fc81e75c76892d23dde79525a8fef1\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\efe4624d53ada32c7ea583fcc97e5c24\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\efe4624d53ada32c7ea583fcc97e5c24\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\dd80ec53ec9468b0ff7405c0e31f90f8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\dd80ec53ec9468b0ff7405c0e31f90f8\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f2f2039eb0bcb7f15a3e9c31c89e91e3\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f2f2039eb0bcb7f15a3e9c31c89e91e3\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\baa7dfb0ec6f4281d447191c61e66924\transformed\maps-animation-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-animation:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\baa7dfb0ec6f4281d447191c61e66924\transformed\maps-animation-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\01c0ded11836ee3eb52bc019ba3b036d\transformed\maps-lifecycle-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.plugin:maps-lifecycle:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\01c0ded11836ee3eb52bc019ba3b036d\transformed\maps-lifecycle-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ce9be3de6a2b5a9f43ec3f0dbf83c7d\transformed\maps-telemetry-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.module:maps-telemetry:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9ce9be3de6a2b5a9f43ec3f0dbf83c7d\transformed\maps-telemetry-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c44f576b7b2b3a0293479d7ce85d53a2\transformed\base-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:base:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c44f576b7b2b3a0293479d7ce85d53a2\transformed\base-10.16.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9561d2863cf87be48217f7ab7219f677\transformed\logger-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:logger:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9561d2863cf87be48217f7ab7219f677\transformed\logger-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b39acc70deae40fdca11d0d0481d9d9b\transformed\loader-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.common:loader:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b39acc70deae40fdca11d0d0481d9d9b\transformed\loader-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\23a5b8ba551bf1f9ff8aa786a8164ceb\transformed\common-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.base:common:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\23a5b8ba551bf1f9ff8aa786a8164ceb\transformed\common-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b5785b0f14263e4af1ed87421c60eafe\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-gestures:0.8.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\b5785b0f14263e4af1ed87421c60eafe\transformed\mapbox-android-gestures-0.8.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6b5527fa58458c95ab786a91e06ccc34\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6b5527fa58458c95ab786a91e06ccc34\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a16bbd8c7e99a4eb483d3dd581ddc315\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a16bbd8c7e99a4eb483d3dd581ddc315\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\65a3e69fe1a3e5c10b220028dc4b94c4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\65a3e69fe1a3e5c10b220028dc4b94c4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a5b703fc5d86d26f14179d978842a0f1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\a5b703fc5d86d26f14179d978842a0f1\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9b2860b649306e6177c578fdbb00cfeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9b2860b649306e6177c578fdbb00cfeb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f80e3811d8888fefc07b4f38ca7ef972\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f80e3811d8888fefc07b4f38ca7ef972\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6f13bf059c55febc2fc85a528f677c7c\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6f13bf059c55febc2fc85a528f677c7c\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0aba20422b11598fc4bb527c74e2d740\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\0aba20422b11598fc4bb527c74e2d740\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5d0f44708e140680afcce7da543ee8be\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\5d0f44708e140680afcce7da543ee8be\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cb9982815f5e1bd98f11f1324b17847\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cb9982815f5e1bd98f11f1324b17847\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\11f9a9ef2d426f1bf3925bc6dd0363a4\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\11f9a9ef2d426f1bf3925bc6dd0363a4\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.auth0.android:jwtdecode:2.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\aaa60418b440e88e4421190455f0d28c\transformed\jwtdecode-2.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.auth0.android:jwtdecode:2.0.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\aaa60418b440e88e4421190455f0d28c\transformed\jwtdecode-2.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ed23e401d7870c24cd1832677a04864a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ed23e401d7870c24cd1832677a04864a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c56d1f56a9fc1c38b371df45f07f486b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c56d1f56a9fc1c38b371df45f07f486b\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\25b5a6f09989baaef593d2978d398cd0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\25b5a6f09989baaef593d2978d398cd0\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6cc14491d12bdb67f8ad9becc759537c\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\6cc14491d12bdb67f8ad9becc759537c\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\00d524e05b53cb37eba9383403c2c885\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\00d524e05b53cb37eba9383403c2c885\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\337fbde2e1985a716b49aa4262f007ec\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\337fbde2e1985a716b49aa4262f007ec\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c5286788ada3388cea2e031d02e6ed0f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\c5286788ada3388cea2e031d02e6ed0f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\7df10a3995a3869fb5a5919466ed8895\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\7df10a3995a3869fb5a5919466ed8895\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\81326a38ecd9b9a4c70095822077e561\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\81326a38ecd9b9a4c70095822077e561\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\203ba2d1950cd25fe8e56a03c647f5f9\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\203ba2d1950cd25fe8e56a03c647f5f9\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\17e15d8ae0a88e67fc3ad7e7c9694220\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\17e15d8ae0a88e67fc3ad7e7c9694220\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9a01d20f3779827e9091c430aa5b7253\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9a01d20f3779827e9091c430aa5b7253\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9662e09ef789d5f47a5ff14dc311542d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\9662e09ef789d5f47a5ff14dc311542d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cce13a0d287274fe166b8418196be66\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\3cce13a0d287274fe166b8418196be66\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Mohamed Fenina\Desktop\EcoGive\mmmmmmmmmmm\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:13:9-21:20
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:13:9-21:20
+MERGED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:13:9-21:20
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:22:9-30:20
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:14:9-24:20
+MERGED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:14:9-24:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\38b31747088a11b6860044ad8dbd6417\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:17:13-31
+	android:authorities
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:15:13-68
+	android:exported
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:14:13-67
+meta-data#com.mapbox.search.MapboxSearchSdkInitializer
+ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:18:13-20:52
+	android:value
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:20:17-49
+	android:name
+		ADDED from [com.mapbox.search:mapbox-search-android:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\8cd0c881576245046ec8bc991efeb40a\transformed\mapbox-search-android-1.0.0-rc.7\AndroidManifest.xml:19:17-76
+meta-data#com.mapbox.search.base.BaseSearchSdkInitializer
+ADDED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:18:13-20:52
+	android:value
+		ADDED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:20:17-49
+	android:name
+		ADDED from [com.mapbox.search:base:1.0.0-rc.7] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\ce5f79b0d5b36dfa55a9e214f778c71d\transformed\base-1.0.0-rc.7\AndroidManifest.xml:19:17-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\48780f768a796275ff03e1a8730bac99\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\bc86a83808e6fb64ebcb773e83c6adde\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-feature#0x00020000
+ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:10:5-12:35
+	android:glEsVersion
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:11:9-41
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:12:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:14:9-45
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:19:22-73
+meta-data#com.mapbox.maps.loader.MapboxMapsInitializer
+ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:27:13-29:52
+	android:value
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:29:17-49
+	android:name
+		ADDED from [com.mapbox.maps:android-core:10.16.2] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\f3ce27bd2b02f934742d8a467c16c9e3\transformed\android-core-10.16.2\AndroidManifest.xml:28:17-76
+meta-data#com.mapbox.common.MapboxSDKCommonInitializer
+ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:21:13-23:52
+	android:value
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:23:17-49
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:22:17-76
+receiver#com.mapbox.common.location.LocationUpdatesReceiver
+ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:26:9-33:20
+	android:enabled
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:27:13-78
+intent-filter#action:name:com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:30:13-32:29
+action#com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES
+ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:31:17-125
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:31:25-122
+service#com.mapbox.common.LifecycleService
+ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [com.mapbox.common:common:23.8.4] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e3df9cf7638a3826a2900874310be7dd\transformed\common-23.8.4\AndroidManifest.xml:36:13-62
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\28d3271eae61f08fd893de6bb55a5e2b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.example.mmmmmmmmmmm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.mmmmmmmmmmm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\616ae6d295de3013bb063663f44b012e\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Mohamed Fenina\.gradle\caches\transforms-3\e6109654f174919bb601d3363dcbf3a5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
