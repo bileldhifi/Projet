@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-he/values-he.xml",
+            "map": [
+                {
+                    "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,161,296",
+                        "endColumns": "55,49,134,89",
+                        "endOffsets": "106,156,291,381"
+                    }
+                }
+            ]
+        }
+    ]
+}

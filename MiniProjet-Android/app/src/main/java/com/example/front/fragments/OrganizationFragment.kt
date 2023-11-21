@@ -13,7 +13,7 @@ import com.example.front.*
 import com.example.front.Api.OrganizationsApi
 import com.example.front.EventsList.OrganizationsAdapter
 import com.example.front.Utils.RetrofitClient
-import com.example.front.data.ListEvents
+import com.example.front.data.ListOrganizations
 import com.example.front.data.Organizations
 import com.google.gson.Gson
 
@@ -54,14 +54,14 @@ private fun doList() {
                 Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
                 recylcerOrganization = view?.findViewById(R.id.recyclerOrganization) !!
                 val jsonString = response.body().toString()
-                // Log.d("JsonString", jsonString)
+                Log.d("JsonString", jsonString)
 
                 val gson = Gson()
-                val listEvents = gson.fromJson(jsonString, ListEvents::class.java)
+                val listOrganizations = gson.fromJson(jsonString, ListOrganizations::class.java)
 
                 val linearLayoutManager:LinearLayoutManager = LinearLayoutManager(context)
                 linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
-               //recylcerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
+               recylcerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
 
                 recylcerOrganization.adapter = recylcerOrganizationsAdapter
 
@@ -70,7 +70,7 @@ private fun doList() {
             }
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
-                Toast.makeText(context, "Liste out ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Liste  ", Toast.LENGTH_SHORT).show()
             }
         })
 

@@ -20,17 +20,19 @@ class OrganizationsAdapter(var OrganizationsList: ListOrganizations) : RecyclerV
     override fun onBindViewHolder(holder: OrganizationsViewHolder, position: Int) {
 
 
-        val image =     OrganizationsList.organizations[position].organizationName
-        val title =     OrganizationsList.organizations[position].organizationDescription
-        val lieu = OrganizationsList.organizations[position].organizationAddress
-        val date = OrganizationsList.organizations[position].organizationEmail
-        val organisation = OrganizationsList.organizations[position].organizationPhone
-        val description = OrganizationsList.organizations[position].organizationDate
+        val name =     OrganizationsList.organizations[position].organizationName
+        val description =     OrganizationsList.organizations[position].organizationDescription
+        val adresse = OrganizationsList.organizations[position].organizationAddress
+        val email = OrganizationsList.organizations[position].organizationEmail
+        val phone = OrganizationsList.organizations[position].organizationPhone
+        val date = OrganizationsList.organizations[position].organizationDate
         //val qrcode = OrganizationsList.organizations[position].qrcode
         // holder.UserPic.setImageResource(NewsList[position].userPic)
-        holder.TitleEvent.text=title
-        holder.LieuEvent.text = lieu
-        holder.DateEvent.text = date
+        holder.NameOrganization.text= name
+        holder.AdressOrganization.text = adresse
+        holder.DateOrganization.text = date
+
+
        // Picasso.get().load("http:///10.0.2.2:3000/"+image).into(holder.ImageEvent);
         holder.itemView.setOnClickListener{
             val currentItem = OrganizationsList.organizations[position]
@@ -38,11 +40,11 @@ class OrganizationsAdapter(var OrganizationsList: ListOrganizations) : RecyclerV
             val intent = Intent(holder.itemView.context, DetailsActivity::class.java)
             intent.apply {
                 intent.putExtra("name", currentItem.organizationName)
-                intent.putExtra("date", currentItem.organizationDescription)
-                intent.putExtra("organisation", currentItem.organizationAddress)
-                intent.putExtra("lieu", currentItem.organizationEmail)
-                intent.putExtra("image", currentItem.organizationPhone)
-                intent.putExtra("description", currentItem.organizationDate)
+                intent.putExtra("description", currentItem.organizationDescription)
+                intent.putExtra("adresse", currentItem.organizationAddress)
+                intent.putExtra("email", currentItem.organizationEmail)
+                intent.putExtra("phone", currentItem.organizationPhone)
+                intent.putExtra("date", currentItem.organizationDate)
 
                // intent.putExtra("qrcode", currentItem.qrcode)
 

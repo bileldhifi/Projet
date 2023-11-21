@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="374dp"
+        android:layout_height="293dp"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/phoneOrganization"
+            android:layout_width="130dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="phone"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <TextView
+            android:id="@+id/dateOrganization"
+            android:layout_width="130dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="date"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/emailOrganization"
+            android:layout_width="130dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="email"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <TextView
+            android:id="@+id/descriptionOrganization"
+            android:layout_width="340dp"
+            android:layout_height="76dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="Description Organization"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/NameOrganization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="Name Organization"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/AdressOrganization"
+            android:layout_width="190dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/almondnougat"
+            android:text="Adress Organization"
+            android:textColor="@color/turquoise1"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="95dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="46dp"
+            android:layout_height="34dp"
+            app:srcCompat="@drawable/adress"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="38dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/envelope"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="34dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/phone"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="33dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/isondate"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

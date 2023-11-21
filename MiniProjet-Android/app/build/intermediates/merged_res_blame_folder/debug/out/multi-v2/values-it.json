@@ -72,6 +72,23 @@
                         "endColumns": "104,102,108,83,104,118,77,74,91,93,92,93,100,93,96,94,91,91,80,105,106,97,103,105,106,162,99,81",
                         "endOffsets": "373,476,585,669,774,893,971,1046,1138,1232,1325,1419,1520,1614,1711,1806,1898,1990,2071,2177,2284,2382,2486,2592,2699,2862,2962,7710"
                     }
+                },
+                {
+                    "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,334",
+                        "endColumns": "58,46,172,128",
+                        "endOffsets": "109,156,329,458"
+                    },
+                    "to": {
+                        "startLines": "91,92,93,94",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7816,7875,7922,8095",
+                        "endColumns": "58,46,172,128",
+                        "endOffsets": "7870,7917,8090,8219"
+                    }
                 }
             ]
         }

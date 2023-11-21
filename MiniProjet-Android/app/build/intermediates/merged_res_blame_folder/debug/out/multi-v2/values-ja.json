@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,156,256",
+                        "endColumns": "53,46,99,81",
+                        "endOffsets": "104,151,251,333"
+                    },
+                    "to": {
+                        "startLines": "91,92,93,94",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7081,7135,7182,7282",
+                        "endColumns": "53,46,99,81",
+                        "endOffsets": "7130,7177,7277,7359"
+                    }
+                },
+                {
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/res/values-ja/values-ja.xml",
                     "from": {
                         "startLines": "2",

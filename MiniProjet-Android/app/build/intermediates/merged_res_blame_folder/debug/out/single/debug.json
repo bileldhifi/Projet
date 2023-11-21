@@ -40,12 +40,12 @@
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic.png.flat",
-        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic.png"
-    },
-    {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_eye.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/eye.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic.png.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic.png"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic_newspaper.xml.flat",
@@ -102,10 +102,6 @@
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic_home.xml"
-    },
-    {
-        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic_title.xml.flat",
@@ -166,6 +162,10 @@
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_vector.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/vector.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_back.png.flat",
