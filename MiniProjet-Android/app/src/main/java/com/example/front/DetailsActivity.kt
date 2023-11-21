@@ -1,9 +1,7 @@
 package com.example.front
 
 import android.content.Intent
-import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -18,7 +16,6 @@ import android.widget.PopupMenu
 import android.widget.PopupWindow
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.bumptech.glide.Glide
 import com.squareup.picasso.Picasso
 
 
@@ -48,10 +45,10 @@ class DetailsActivity : AppCompatActivity() {
 
        Log.i("testt",qrcodeh.toString())
 
-        titleEvent = findViewById(R.id.TitleEvent)
+        titleEvent = findViewById(R.id.NameOrganization)
         descriptionEvent = findViewById(R.id.descriptionEvent)
         dateEvent = findViewById(R.id.DateEvent)
-         lieuEvent = findViewById(R.id.LieuEvent)
+         lieuEvent = findViewById(R.id.AdressOrganization)
         organisation= findViewById(R.id.organisation)
        imageEvent = findViewById(R.id.ImageEvent)
 

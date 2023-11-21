@@ -6,7 +6,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
-//("http://10.0.2.2:3000/")
+//("http://172.18.15.242:3000/")
 class RetrofitClient {
 
     var BASE_URL = "http:///10.0.2.2:3000/"
