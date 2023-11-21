@@ -41,8 +41,11 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import android.Manifest
+import android.text.Html
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.Toast
+import com.example.mmmmmmmmmmm.Model.callResponse
 import com.mapbox.geojson.Point
 import com.mapbox.maps.plugin.gestures.addOnMapLongClickListener
 
@@ -56,15 +59,16 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
 
     @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
-            super.onCreate(savedInstanceState)
+
+        super.onCreate(savedInstanceState)
             binding = ActivityMainBinding.inflate(layoutInflater)
             setContentView(binding.root)
-
             mapView = findViewById(R.id.mapView)
             mapView?.getMapboxMap()?.loadStyleUri(Style.OUTDOORS, object : Style.OnStyleLoaded {
                 override fun onStyleLoaded(style: Style) {
                     enableLocationComponent(style)
                 }
+               // val callBtn:Button= findViewById(R.id.buttonCall)
             })
 
             val call: Call<List<Location>> = apiService.getPost()
@@ -77,7 +81,7 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
                             runOnUiThread {
                                 //addAnnotationToMap(location[0].lat, location[0].long) // add annotation when the style map is loaded
                                 for (loc in locations) {
-                                    addAnnotationToMap(loc.lat, loc.long)
+                                    addAnnotationToMap(loc.categorie,loc.lat, loc.long)
                                     Log.d("bilel", "Error: ${locations}")
                                 }
                             }
@@ -118,6 +122,7 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
         // end lat long map
 
     }
+
     private fun showAddAnnotationDialog(lat: Double, long: Double) {
         val dialog = AddAnnotationDialogFragment().apply {
             arguments = Bundle().apply {
@@ -140,7 +145,7 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
             override fun onResponse(call: Call<Location>, response: Response<Location>) {
                 // Handle response
                 if (response.isSuccessful) {
-                    addAnnotationToMap(location.lat, location.long)
+                    addAnnotationToMap(location.categorie,location.lat, location.long)
                 } else {
                     // Handle server error response
                     Log.e("POST_Error", "Server responded with error: ${response.errorBody()?.string()}")
@@ -188,18 +193,24 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
 
         // Add new annotations to the map for filtered locations
         for (location in filteredLocations) {
-            addAnnotationToMap(location.lat, location.long)
+            addAnnotationToMap(location.categorie,location.lat, location.long)
         }
     }
 
 
-    private fun addAnnotationToMap(latitude: Double, longitude: Double) {
+    private fun addAnnotationToMap(category: String,latitude: Double, longitude: Double) {
+        val iconResource = when (category) {
+            "metal" -> R.drawable.fastfood // Replace with your metal icon drawable
+            // Add more categories if needed
+            else -> R.drawable.leau // Default icon
+        }
+
         bitmapFromDrawableRes(this@MainActivity2, R.drawable.ic_banner_foreground)?.let { bitmap ->
             val annotationApi = mapView?.annotations
             val pointAnnotationManager = annotationApi?.createPointAnnotationManager(mapView!!)
 
             // Add custom annotation
-            addCustomAnnotation(pointAnnotationManager, R.drawable.leau, latitude, longitude)
+            addCustomAnnotation(pointAnnotationManager, iconResource, latitude, longitude)
 
             // Set up the click listener for annotations
             pointAnnotationManager?.addClickListener { pointAnnotation ->
@@ -208,6 +219,7 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
             }
         }
     }
+        @SuppressLint("MissingInflatedId")
         private fun showBottomSheetDialog(pointAnnotation: PointAnnotation) {
             val bottomSheetDialog = BottomSheetDialog(this)
             val view = layoutInflater.inflate(R.layout.bottomsheet, null)
@@ -215,6 +227,12 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
             val nameTextView = view.findViewById<TextView>(R.id.name)
             val adresseTextView = view.findViewById<TextView>(R.id.adresse)
             val categorie = view.findViewById<TextView>(R.id.categorie)
+            val description = view.findViewById<TextView>(R.id.description)
+            val instruction = view.findViewById<TextView>(R.id.instruction)
+            val callBtn = view.findViewById<Button>(R.id.callBtn)
+            callBtn.setOnClickListener {
+               call()
+           }
             // Add other TextViews or views for additional details
            // Log.d("aaa", "Clicked at: Lat=${pointAnnotation.point.latitude()}, Long=${pointAnnotation.point.longitude()}")
 
@@ -228,6 +246,8 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
                 nameTextView.text = matchingLocation.name
                 adresseTextView.text = matchingLocation.adresse
                 categorie.text = matchingLocation.categorie
+                instruction.text = matchingLocation.instruction
+                description.text = matchingLocation.description
                 // Set other details similarly...
             } else {
                 // No matching location found
@@ -241,6 +261,12 @@ class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnota
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
 
+            val closeSheet = view.findViewById<TextView>(R.id.closeSheet)
+            closeSheet.text = Html.fromHtml(getString(R.string.underlined_close_window))
+
+            closeSheet.setOnClickListener(){
+                bottomSheetDialog.dismiss()  // This dismisses the BottomSheetDialog
+            }
         }
 
     private fun addCustomAnnotation(
@@ -328,5 +354,20 @@ private fun convertDrawableToBitmap(sourceDrawable: Drawable?): Bitmap? {
         private const val PERMISSIONS_REQUEST_LOCATION = 101
     }
     // END location acces
+    fun call() {
+        val apiService = RetrofitInstance.retrofit.create(ApiService::class.java)
+
+        apiService.call().enqueue(object : Callback<callResponse> {
+            override fun onResponse(call: Call<callResponse>, response: Response<callResponse>) {
+                if (response.isSuccessful) {
+
+                } else {
+                }
+            }
+
+            override fun onFailure(call: Call<callResponse>, t: Throwable) {
+            }
+        })
+    }
 
 }

@@ -1,6 +1,7 @@
 package com.example.mmmmmmmmmmm.Repository
 
 import com.example.mmmmmmmmmmm.Model.Location
+import com.example.mmmmmmmmmmm.Model.callResponse
 import retrofit2.Call
 import retrofit2.http.Body
 import retrofit2.http.GET
@@ -11,5 +12,6 @@ interface ApiService {
         fun getPost(): Call<List<Location>>
     @POST("create")
     fun addLocation(@Body locationData: Location): Call<Location> // Replace ResponseType with your actual response class
-
+    @POST("call")
+    fun call():Call<callResponse>
 }

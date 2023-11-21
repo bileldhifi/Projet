@@ -1,4 +1,5 @@
 package com.example.mmmmmmmmmmm
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
 import com.example.mmmmmmmmmmm.Model.Location
+
 class AddAnnotationDialogFragment : DialogFragment() {
 
     interface AddAnnotationListener {
@@ -16,6 +18,7 @@ class AddAnnotationDialogFragment : DialogFragment() {
 
     var listener: AddAnnotationListener? = null
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.dialog_add_annotation, container, false)
 
@@ -26,6 +29,7 @@ class AddAnnotationDialogFragment : DialogFragment() {
         val submitButton = view.findViewById<Button>(R.id.submit_button)
         val latitudeTextView = view.findViewById<TextView>(R.id.latitudeTextView)
         val longitudeTextView = view.findViewById<TextView>(R.id.longitudeTextView)
+        val description = view.findViewById<TextView>(R.id.description)
 
         // Retrieve latitude and longitude passed from the activity
         val latitude = arguments?.getDouble("latitude", 0.0) ?: 0.0
@@ -41,9 +45,9 @@ class AddAnnotationDialogFragment : DialogFragment() {
             val category = categoryEditText.text.toString()
             val instruction = instructionEditText.text.toString()
             val address = addressEditText.text.toString()
-
+            val description = description.text.toString()
             // Create a Location object with all the data
-            val location = Location(name, latitude,longitude, address, category, instruction)
+            val location = Location(name, latitude,longitude, address, category, instruction, description)
 
             listener?.onAnnotationAdded(location)
 
@@ -52,4 +56,5 @@ class AddAnnotationDialogFragment : DialogFragment() {
 
         return view
     }
+
 }

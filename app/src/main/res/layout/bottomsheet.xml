@@ -1,70 +1,161 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/white"
+    android:padding="0dp"
     android:clipToPadding="true">
 
-    <ImageView
-        android:id="@+id/locationImageView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:adjustViewBounds="true"
-        android:background="@drawable/loc" />
-
-    <TextView
-        android:id="@+id/name"
+    <!-- Drag handle -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textSize="24sp"
-        android:textColor="@color/black"
-        tools:text="Ariana Center" />
+        android:background="@drawable/gradient_background"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/adresse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textSize="16sp"
-        tools:text="123 Main St, City, Country" />
 
-    <TextView
-        android:id="@+id/categorie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textSize="14sp"
-        android:textColor="@color/white"
-        android:padding="4dp"
-        android:textAllCaps="true"
-        tools:text="CARTON" />
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bottom_sheet_handle" />
 
-    <TextView
-        android:id="@+id/instructionTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:textSize="14sp"
-        tools:text="No specific instructions provided." />
-
-    <!-- Use a ScrollView if you expect instructions to be long -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        <!-- Location Title -->
         <TextView
-            android:id="@+id/detailedInstructionTextView"
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:textSize="14sp"
-            android:padding="4dp"
-            tools:text="Detailed instructions for recycling or handling the material..." />
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="3dp"
+            android:text="Location Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#E2FAFAFA" />
+
+        <!-- Location Details -->
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Some details about the location..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <!-- Call Button -->
+        <Button
+            android:id="@+id/callBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTint="#195459"
+            android:text="CALL"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/baseline_call_24"
+            android:drawablePadding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp" />
+
+        <!-- Website Button -->
+        <Button
+            android:id="@+id/btnWebsite"
+            android:layout_width="0dp"
+            android:background="?attr/selectableItemBackground"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WEBSITE"
+            android:textColor="@color/black"
+            android:drawableTint="#195459"
+
+            android:drawableTop="@drawable/baseline_open_in_browser_24"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:drawableTint="#195459"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WEBSITE"
+            android:background="?attr/selectableItemBackground"
+            android:textColor="@color/black"
+            android:drawableTop="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/categorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:drawableTint="#195459"
+                android:drawablePadding="20dp"
+                android:layout_marginBottom="15dp"
+                android:drawableStart="@drawable/baseline_category_24" />
+
+            <TextView
+                android:id="@+id/instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:drawablePadding="20dp"
+                android:drawableTint="#195459"
+                android:drawableStart="@drawable/baseline_warning_24"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTint="#195459"
+
+                android:layout_marginBottom="15dp"
+                android:drawablePadding="20dp"
+                android:drawableStart="@drawable/baseline_description_24"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/closeSheet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/underlined_close_window"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:padding="16dp" />
+        </LinearLayout>
+
     </ScrollView>
+
+
+    <!-- A button for directions or other actions -->
 
 </LinearLayout>

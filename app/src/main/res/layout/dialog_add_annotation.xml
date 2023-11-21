@@ -28,7 +28,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Address" />
-        <TextView
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="description" />
+
+    <TextView
             android:id="@+id/latitudeTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -42,7 +48,6 @@
             android:layout_marginTop="8dp"
             android:text="Longitude" />
 
-
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
@@ -50,4 +55,6 @@
             android:text="Submit"
             android:layout_gravity="center_horizontal" />
 
-    </LinearLayout>
+
+
+</LinearLayout>
