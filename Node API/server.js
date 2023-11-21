@@ -2,12 +2,13 @@ const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+require ("dotenv").config();
 
 const RecRoute = require('./Routes/reclamation');
 const RepRoute = require('./Routes/response');
 const NewsRoute = require('./Routes/news');
 
-mongoose.connect('mongodb://localhost:27017/Omar');
+mongoose.connect('mongodb+srv://bilel:bilel@cluster0.xspsj0f.mongodb.net/?retryWrites=true&w=majority');
 const db = mongoose.connection;
 
 db.on('error', (err) => {
@@ -24,7 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/uploads', express.static('uploads'))
 
-const PORT = process.env.PORT || 8088;
+const PORT = process.env.PORT ;
 
 app.listen(PORT, () => {
    console.log(`Server is running on port ${PORT}`);
