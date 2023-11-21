@@ -1859,6 +1859,7 @@ drawable detailsnewstitle
 drawable eye
 drawable groupa
 drawable home_selector
+drawable ic
 drawable ic_baseline_chat_24
 drawable ic_clock_black_24dp
 drawable ic_description

@@ -131,9 +131,9 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/oumaymacherif/Downlo
 	android:label
 		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:11:9-48
 	android:icon
-		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:9:9-36
 	android:theme
 		ADDED from /Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/AndroidManifest.xml:13:9-43
 	android:usesCleartextTraffic

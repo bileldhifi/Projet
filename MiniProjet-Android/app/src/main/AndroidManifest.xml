@@ -6,9 +6,9 @@
 
     <application
         android:fontFamily="@font/milkyniceclean"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.Front"
         android:usesCleartextTraffic="true">

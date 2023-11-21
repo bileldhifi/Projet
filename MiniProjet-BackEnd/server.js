@@ -6,8 +6,7 @@ const swaggerDocument = require('./swagger.json');
 const swaggerUi = require('swagger-ui-express');
 
 const eventsRoute = require('./routes/events');
-//const organizationRoutes = require('./routes/organization'); // Adjust the path accordingly
-
+const organizationRouter = require('./routes/organization');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
@@ -42,8 +41,7 @@ app.use(cors());
 
 // Routes
 app.use('/events', eventsRoute);
-//app.use('/organizations', organizationRoutes);
-
+app.use('/organizations', organizationRouter);
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });

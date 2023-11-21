@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const OrganizationEnum = require('./organizationEnum');
 
 
     const eventsSchema = Schema({
@@ -9,8 +8,7 @@ const OrganizationEnum = require('./organizationEnum');
         eventLocation: {type:String},
         eventDescription: {type:String},
         image: { type: String }, 
-        organization: { type: String, enum: OrganizationEnum },
-        //organization: { type: String }, 
+        organization: { type: String }, 
         qrcode:{type:String}
       });
 
