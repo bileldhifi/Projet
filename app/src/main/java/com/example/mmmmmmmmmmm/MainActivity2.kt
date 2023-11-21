@@ -41,67 +41,60 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import android.Manifest
+import android.view.ViewGroup
 import android.widget.Toast
 import com.mapbox.geojson.Point
-import com.mapbox.maps.plugin.locationcomponent.LocationComponentPlugin
-//floating location bottom
-import com.mapbox.android.core.location.LocationEngineProvider
-import com.mapbox.android.core.location.LocationEngineRequest
-import com.mapbox.android.core.location.LocationEngineCallback
-import com.mapbox.android.core.location.LocationEngineResult
-import java.lang.ref.WeakReference
-//end floating bottom
-
+import com.mapbox.maps.plugin.gestures.addOnMapLongClickListener
 
 var mapView: MapView? = null
 lateinit var binding: ActivityMainBinding
 
 private var pointAnnotationManager: PointAnnotationManager? = null
-class MainActivity2 : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity(), AddAnnotationDialogFragment.AddAnnotationListener {
     private val apiService = RetrofitInstance.retrofit.create(ApiService::class.java)
     private var allLocations: List<Location> = listOf() // Store all locations here
 
     @SuppressLint("MissingInflatedId")
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            binding = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(binding.root)
 
-        mapView = findViewById(R.id.mapView)
-        mapView?.getMapboxMap()?.loadStyleUri(Style.OUTDOORS, object : Style.OnStyleLoaded {
-            override fun onStyleLoaded(style: Style) {
-                enableLocationComponent(style)
-            }
-        })
+            mapView = findViewById(R.id.mapView)
+            mapView?.getMapboxMap()?.loadStyleUri(Style.OUTDOORS, object : Style.OnStyleLoaded {
+                override fun onStyleLoaded(style: Style) {
+                    enableLocationComponent(style)
+                }
+            })
 
-        val call: Call<List<Location>> = apiService.getPost()
-        call.enqueue(object : Callback<List<Location>> {
-            override fun onResponse(call: Call<List<Location>>, response: Response<List<Location>>) {
-                if (response.isSuccessful) {
-                    response.body()?.let {locations->
-                        allLocations = locations // Store the locations
-                        // Update the UI on the main thread
-                        runOnUiThread {
-                            //addAnnotationToMap(location[0].lat, location[0].long) // add annotation when the style map is loaded
-                            for (loc in locations) {
-                                addAnnotationToMap(loc.lat, loc.long)
-                                Log.d("bilel", "Error: ${locations}")
+            val call: Call<List<Location>> = apiService.getPost()
+            call.enqueue(object : Callback<List<Location>> {
+                override fun onResponse(call: Call<List<Location>>, response: Response<List<Location>>) {
+                    if (response.isSuccessful) {
+                        response.body()?.let {locations->
+                            allLocations = locations // Store the locations
+                            // Update the UI on the main thread
+                            runOnUiThread {
+                                //addAnnotationToMap(location[0].lat, location[0].long) // add annotation when the style map is loaded
+                                for (loc in locations) {
+                                    addAnnotationToMap(loc.lat, loc.long)
+                                    Log.d("bilel", "Error: ${locations}")
+                                }
                             }
                         }
+                    } else {
+                        runOnUiThread {
+                        }
                     }
-                } else {
+                }
+                override fun onFailure(call: Call<List<Location>>, t: Throwable) {
+                    // Handle network failures
+                    // For example, you can show an error message in the TextView
                     runOnUiThread {
+                        Log.d("bilel", "Error: ${t.message}")
                     }
                 }
-            }
-            override fun onFailure(call: Call<List<Location>>, t: Throwable) {
-                // Handle network failures
-                // For example, you can show an error message in the TextView
-                runOnUiThread {
-                    Log.d("bilel", "Error: ${t.message}")
-                }
-            }
-        })
+            })
         fetchAndLogLocations()
         //search view
         val searchView: SearchView = findViewById(R.id.search_view)
@@ -116,11 +109,53 @@ class MainActivity2 : AppCompatActivity() {
             }
         })
 // End search view
-        val fabCurrentLocation: FloatingActionButton = findViewById(R.id.currentlocation)
-        fabCurrentLocation.setOnClickListener {
-            //goToCurrentLocation()
+
+        //retrive lat and long whet click on map
+        mapView?.getMapboxMap()?.addOnMapLongClickListener { point ->
+            showAddAnnotationDialog(point.latitude(), point.longitude())
+            true
         }
+        // end lat long map
+
     }
+    private fun showAddAnnotationDialog(lat: Double, long: Double) {
+        val dialog = AddAnnotationDialogFragment().apply {
+            arguments = Bundle().apply {
+                putDouble("latitude", lat)
+                putDouble("longitude", long)
+            }
+            listener = this@MainActivity2
+        }
+        dialog.show(supportFragmentManager, "AddAnnotationDialogFragment")
+    }
+
+    override fun onAnnotationAdded(location: Location) {
+        sendLocationToServer(location)
+        // Handle the data (e.g., send to server using Retrofit)
+    }
+    fun sendLocationToServer(location: Location) {
+        Log.d("sendd","send to server")
+        val apiService = RetrofitInstance.retrofit.create(ApiService::class.java)
+        apiService.addLocation(location).enqueue(object : Callback<Location> {
+            override fun onResponse(call: Call<Location>, response: Response<Location>) {
+                // Handle response
+                if (response.isSuccessful) {
+                    addAnnotationToMap(location.lat, location.long)
+                } else {
+                    // Handle server error response
+                    Log.e("POST_Error", "Server responded with error: ${response.errorBody()?.string()}")
+                }
+            }
+
+            override fun onFailure(call: Call<Location>, t: Throwable) {
+                // Handle failure
+                Log.e("POST_Error", "Error: ${t.message}")
+
+            }
+        })
+    }
+
+
     private fun searchForAnnotation(query: String) {
         // Filter for locations that match the query by name or category
         val matchedLocations = allLocations.filter {
@@ -181,11 +216,11 @@ class MainActivity2 : AppCompatActivity() {
             val adresseTextView = view.findViewById<TextView>(R.id.adresse)
             val categorie = view.findViewById<TextView>(R.id.categorie)
             // Add other TextViews or views for additional details
-            Log.d("aaa", "Clicked at: Lat=${pointAnnotation.point.latitude()}, Long=${pointAnnotation.point.longitude()}")
+           // Log.d("aaa", "Clicked at: Lat=${pointAnnotation.point.latitude()}, Long=${pointAnnotation.point.longitude()}")
 
             // Find the location that matches the annotation's coordinates
             val matchingLocation = allLocations.firstOrNull { location ->
-                location.lat == pointAnnotation.point.longitude()
+                location.lat == pointAnnotation.point.latitude()
                 //  Log.d("bbb", "Location from server: Name=${location.name} Lat=${location.lat}, Long=${location.long}")
             }
             if (matchingLocation != null) {
@@ -201,6 +236,10 @@ class MainActivity2 : AppCompatActivity() {
                 // Clear or set default text for other details...
             }
             bottomSheetDialog.show()
+            bottomSheetDialog.window?.setLayout(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            )
 
         }
 
@@ -212,7 +251,7 @@ class MainActivity2 : AppCompatActivity() {
     ) {
         bitmapFromDrawableRes(this@MainActivity2, imageRes)?.let {
             val pointAnnotationOptions: PointAnnotationOptions = PointAnnotationOptions()
-                .withPoint(com.mapbox.geojson.Point.fromLngLat(longitude, latitude))
+                .withPoint(com.mapbox.geojson.Point.fromLngLat(latitude, longitude))
                 .withIconImage(it)
 
             pointAnnotationManager?.create(pointAnnotationOptions)
