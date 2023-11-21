@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const User = require("../models/User"); // link model
 const multer = require("multer");
+const userController = require("../controller/userController"); // Import the user controller
 
+// Configure multer for file uploading
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./uploads/");
@@ -13,96 +14,59 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-// Create a user with file upload
-router.post("/create", upload.single("photo"), async (req, res) => {
+// User routes with error handling
+router.post("/users", upload.single("photo"), async (req, res) => {
   try {
-    const { firstName, lastname, age, phone, email, password, aboutme, adress } = req.body;
-    const photo = req.file ? req.file.originalname : null; // Get the uploaded file name
-
-    const data = {
-      firstName,
-      lastname,
-      age,
-      phone,
-      email,
-      password,
-      aboutme,
-      photo, // Assign the uploaded photo's filename to the 'photo' field
-      adress,
-    };
-
-    const usr = new User(data);
-    const created = await usr.save();
-    res.status(200).json({ message: "User successfully created", user: created });
+    await userController.createUser(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-// Get all users
-router.get("/getall", async (req, res) => {
+router.get("/users", async (req, res) => {
   try {
-    const users = await User.find();
-    res.status(200).json({ message: "Users successfully fetched", users });
+    await userController.getAllUsers(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-// Get user by ID
-router.get("/getbyname/:id", async (req, res) => {
+router.get("/users/:id", async (req, res) => {
   try {
-    const id = req.params.id;
-    const user = await User.findById(id);
-    res.status(200).json({ message: "User successfully fetched", user });
+    await userController.getUserById(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-
-// Delete all users
-router.delete("/delall", async (req, res) => {
+router.delete("/users", async (req, res) => {
   try {
-    const users = await User.deleteMany();
-    res.status(200).json({ message: "Users successfully deleted", users });
+    await userController.deleteAllUsers(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-// Delete user by ID
-router.delete("/del/:id", async (req, res) => {
+router.delete("/users/:id", async (req, res) => {
   try {
-    const id = req.params.id;
-    const user = await User.findOneAndDelete({ _id: id });
-    res.status(200).json({ message: "User successfully deleted", user });
+    await userController.deleteUserById(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-
-// Update user by ID
-router.put("/update/:id", async (req, res) => {
+router.put("/users/:id", async (req, res) => {
   try {
-    const id = req.params.id;
-    const { firstName, lastname, age, phone, email, password, aboutme, adress } = req.body;
-    const data = {
-      firstName,
-      lastname,
-      age,
-      phone,
-      email,
-      password,
-      aboutme,
-      adress,
-    };
-    const user = await User.findOneAndUpdate({ _id: id }, data, { new: true });
-    res.status(200).json({ message: "User successfully updated", user });
+    await userController.updateUserById(req, res);
   } catch (err) {
-    res.status(404).json({ error: err });
+    console.error(err); // Log the error for debugging
+    res.status(500).json({ error: "Internal server error" });
   }
 });
 
-module.exports = router;
+module.exports = router; // Export the router for use in the main application file
