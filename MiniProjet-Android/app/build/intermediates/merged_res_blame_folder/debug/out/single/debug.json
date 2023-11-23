@@ -40,6 +40,21 @@
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_bordernews.xml.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/bordernews.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic.png.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic.png"
+    },
+    {
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_eye.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/eye.xml"
     },
@@ -92,6 +107,10 @@
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic_home.xml"
     },
     {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_ic_title.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/ic_title.xml"
     },
@@ -124,8 +143,13 @@
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/person_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_baseline_open_in_browser_24.xml.flat",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/baseline_open_in_browser_24.xml"
+=======
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_vector.xml.flat",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/drawable/vector.xml"
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/merged_res/debug/drawable_back.png.flat",

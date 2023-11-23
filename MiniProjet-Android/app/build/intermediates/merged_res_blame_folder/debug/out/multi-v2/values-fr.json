@@ -4,6 +4,7 @@
             "outputFile": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -39,6 +40,9 @@
                 },
                 {
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/74450e628943d59977593879e2ad8bb6/transformed/core-1.9.0/res/values-fr/values-fr.xml",
+=======
+                    "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/5de72daa132584d99e453b37a29374bc/transformed/core-1.7.0/res/values-fr/values-fr.xml",
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

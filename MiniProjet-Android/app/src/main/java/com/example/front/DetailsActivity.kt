@@ -1,9 +1,8 @@
 package com.example.front
 
-import android.Manifest
 import android.content.Intent
-import android.content.pm.PackageManager
 import android.graphics.drawable.ColorDrawable
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
@@ -16,183 +15,113 @@ import android.widget.LinearLayout
 import android.widget.PopupMenu
 import android.widget.PopupWindow
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+<<<<<<< HEAD
 import com.example.front.R
 import com.google.zxing.integration.android.IntentIntegrator
+=======
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
 import com.squareup.picasso.Picasso
+
 
 class DetailsActivity : AppCompatActivity() {
 
-    private lateinit var titleEvent: TextView
-    private lateinit var descriptionEvent: TextView
-    private lateinit var dateEvent: TextView
-    private lateinit var lieuEvent: TextView
-    private lateinit var organisation: TextView
-    private lateinit var imageEvent: ImageView
-    private lateinit var qrcode: ImageView
-
-    companion object {
-        private const val CAMERA_PERMISSION_REQUEST_CODE = 100
-    }
-
+    lateinit var titleEvent : TextView
+    lateinit var descriptionEvent : TextView
+    lateinit var dateEvent : TextView
+    lateinit var lieuEvent : TextView
+    lateinit var organisation : TextView
+    lateinit var imageEvent : ImageView
+     lateinit var  qrcode : ImageView
+   // lateinit var image: Image
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
-        // Retrieve data from intent
+       val inflater = LayoutInflater.from(this)
+       val popup_layout: View = inflater.inflate(R.layout.popup_layout, null, false)
         val name = intent.getStringExtra("name")
         val date = intent.getStringExtra("date")
-        val description = intent.getStringExtra("description")
-        val image = intent.getStringExtra("image")
-        val lieu = intent.getStringExtra("lieu")
-        val organisationH = intent.getStringExtra("organisation")
-        val qrcodeh = intent.getStringExtra("qrcode")
+       val description = intent.getStringExtra("description")
+       val image = intent.getStringExtra("image")
+       val lieu = intent.getStringExtra("lieu")
+       val organisationH = intent.getStringExtra("organisation")
+       val qrcodeh = intent.getStringExtra("qrcode")
 
-        // Initialize UI elements
+       Log.i("testt",qrcodeh.toString())
+
         titleEvent = findViewById(R.id.NameOrganization)
         descriptionEvent = findViewById(R.id.descriptionEvent)
         dateEvent = findViewById(R.id.DateEvent)
-        lieuEvent = findViewById(R.id.AdressOrganization)
-        organisation = findViewById(R.id.organisation)
-        imageEvent = findViewById(R.id.ImageEvent)
+         lieuEvent = findViewById(R.id.AdressOrganization)
+        organisation= findViewById(R.id.organisation)
+       imageEvent = findViewById(R.id.ImageEvent)
 
-        // Set data to UI elements
-        titleEvent.text = name
+
+
+       titleEvent.text = name
         descriptionEvent.text = description
-        dateEvent.text = date
-        lieuEvent.text = lieu
-        organisation.text = organisationH
+         dateEvent.text = date
+       lieuEvent.text = lieu
+       organisation.text = organisationH
 
-        // Load image using Picasso
-        Picasso.get().load("http://10.0.2.2:3000/$image").into(imageEvent)
+       Picasso.get().load("http://10.0.2.2:3000/"+image).into(imageEvent);
 
-        // Event button Qrcode
-        val button: Button = findViewById(R.id.qrcode)
-        val popupMenu = PopupMenu(this, button)
-        popupMenu.menuInflater.inflate(R.menu.eventmenu, popupMenu.menu)
 
-        // Handle clicks on menu items
-        popupMenu.setOnMenuItemClickListener { menuItem: MenuItem ->
-            when (menuItem.itemId) {
-                R.id.scanqrcode -> {
-                    // Logic for option 1 (Scan QR Code)
-                    Log.i("DetailsActivity", "Scan QR Code option selected")
-                    checkCameraPermissionAndScanQRCode()
-                    true
-                }
-                R.id.displayqrcode -> {
-                    // Logic for option 2 (Display QR Code)
-                    val displayInflater =
-                        getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
-                    val popupView: View =
-                        displayInflater.inflate(R.layout.popup_layout, null)
-                    qrcode = popupView.findViewById(R.id.QrCode)
-                    Picasso.get().load("http://10.0.2.2:3000/$qrcodeh").into(qrcode)
 
-                    // Create and show the popup window
-                    showQRCodePopup(popupView)
-                    true
-                }
-                else -> false
-            }
-        }
+       //event  button Qrcode
+       val button: Button = findViewById(R.id.qrcode)
+       val popupMenu = PopupMenu(this, button)
+       popupMenu.menuInflater.inflate(R.menu.eventmenu, popupMenu.menu)
 
-        // Show the popup menu when the button is clicked
-        button.setOnClickListener {
-            popupMenu.show()
-        }
+       // Gérez les clics sur les éléments du menu
+       popupMenu.setOnMenuItemClickListener { menuItem: MenuItem ->
+           when (menuItem.itemId) {
+               R.id.scanqrcode -> {
+                   // Logique pour l'option 1
+                   Log.i("test","scanqrcode")
+                   true
+               }
+               R.id.displayqrcode -> {
+                   // Logique pour l'option 2
+                   // Utilisez LayoutInflater pour créer une vue à partir du fichier XML de la popup
+                   val inflater = getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
+                   val popupView: View = inflater.inflate(R.layout.popup_layout, null)
+                   qrcode = popupView.findViewById(R.id.QrCode)
+                   Picasso.get().load("http://10.0.2.2:3000/"+qrcodeh).into(qrcode);
+                   // Créez la popup en spécifiant la vue, la largeur et la hauteur
+                   val popupWindow = PopupWindow(
+                       popupView,
+                       LinearLayout.LayoutParams.WRAP_CONTENT,
+                       LinearLayout.LayoutParams.WRAP_CONTENT
+                   )
+
+                   // Obtenez une référence au bouton de fermeture dans la popup
+                   val closeButton: Button = popupView.findViewById(R.id.closeButton)
+
+                   // Configurez un clic sur le bouton de fermeture pour fermer la popup
+                   closeButton.setOnClickListener {
+                       popupWindow.dismiss()
+                   }
+                   popupWindow.setBackgroundDrawable(ColorDrawable(ContextCompat.getColor(this, R.color.gris1)))
+
+
+                   // Affichez la popup au centre de l'écran
+                   popupWindow.showAtLocation(popupView, Gravity.CENTER, 0, 0)
+
+                   true
+               }
+               else -> false
+           }
+       }
+       button.setOnClickListener {
+           popupMenu.show()
+       }
+
     }
 
-    private fun showQRCodePopup(popupView: View) {
-        val popupWindow = PopupWindow(
-            popupView,
-            LinearLayout.LayoutParams.WRAP_CONTENT,
-            LinearLayout.LayoutParams.WRAP_CONTENT
-        )
 
-        // Get a reference to the close button in the popup
-        val closeButton: Button = popupView.findViewById(R.id.closeButton)
-
-        // Set up a click listener for the close button to dismiss the popup
-        closeButton.setOnClickListener {
-            popupWindow.dismiss()
-        }
-
-        // Set background color for the popup window
-        popupWindow.setBackgroundDrawable(
-            ColorDrawable(ContextCompat.getColor(this, R.color.gris1))
-        )
-
-        // Display the popup at the center of the screen
-        popupWindow.showAtLocation(popupView, Gravity.CENTER, 0, 0)
-    }
-
-    private fun checkCameraPermissionAndScanQRCode() {
-        // Check for camera permission
-        if (ContextCompat.checkSelfPermission(
-                this,
-                Manifest.permission.CAMERA
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            // Request permission if not granted
-            ActivityCompat.requestPermissions(
-                this,
-                arrayOf(Manifest.permission.CAMERA),
-                CAMERA_PERMISSION_REQUEST_CODE
-            )
-        } else {
-            // Permission already granted, start scanning
-            startQRCodeScanning()
-        }
-    }
-
-    private fun startQRCodeScanning() {
-        val integrator = IntentIntegrator(this)
-        integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE)
-        integrator.setPrompt("Scan a QR Code")
-        integrator.setCameraId(0)  // Use front camera (0) or back camera (1)
-        integrator.setBeepEnabled(true)
-        integrator.setBarcodeImageEnabled(false)
-        integrator.initiateScan()
-    }
-
-    override fun onRequestPermissionsResult(
-        requestCode: Int,
-        permissions: Array<String>,
-        grantResults: IntArray
-    ) {
-        when (requestCode) {
-            CAMERA_PERMISSION_REQUEST_CODE -> {
-                if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    // Permission granted, start scanning
-                    startQRCodeScanning()
-                } else {
-                    // Permission denied
-                    // Handle the denial case
-                    Log.e("DetailsActivity", "Camera permission denied")
-                }
-                return
-            }
-            // Handle other permission requests if any
-        }
-    }
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
-        if (result != null) {
-            if (result.contents != null) {
-                // Handle the scanned QR code result
-                val scannedData = result.contents
-                // Now, you can use the scannedData to retrieve information about the specific event
-                Log.i("DetailsActivity", "ScannedData: $scannedData")
-            }
-        }
-    }
-
-    fun backHome(view: View) {
+    fun backHome(view: android.view.View) {
         val intent = Intent(this, menuClient::class.java)
         startActivity(intent)
     }

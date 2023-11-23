@@ -13,7 +13,12 @@ import com.example.front.*
 import com.example.front.Api.OrganizationsApi
 import com.example.front.OrganizationsList.OrganizationsAdapter  // Use the correct import statement
 import com.example.front.Utils.RetrofitClient
+<<<<<<< HEAD
 import com.example.front.data.ListOrganizations
+=======
+import com.example.front.data.ListEvents
+import com.example.front.data.Organizations
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
@@ -48,6 +53,7 @@ class OrganizationFragment : Fragment() {
 
         retro.listOrganizations().enqueue(object : Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
+<<<<<<< HEAD
                 recyclerOrganizations = view?.findViewById(R.id.recyclerOrganizations) !!
 
                 Toast.makeText(context, "Org ", Toast.LENGTH_SHORT).show()
@@ -59,6 +65,19 @@ class OrganizationFragment : Fragment() {
 
                 val linearLayoutManager:LinearLayoutManager = LinearLayoutManager(context)
                 linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
+=======
+                Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
+                recylcerOrganization = view?.findViewById(R.id.recyclerOrganization) !!
+                val jsonString = response.body().toString()
+                // Log.d("JsonString", jsonString)
+
+                val gson = Gson()
+                val listEvents = gson.fromJson(jsonString, ListEvents::class.java)
+
+                val linearLayoutManager:LinearLayoutManager = LinearLayoutManager(context)
+                linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
+               //recylcerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
 
                 // Set the data directly in the adapter without using updateData
                         recyclerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
@@ -68,7 +87,11 @@ class OrganizationFragment : Fragment() {
 
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
+<<<<<<< HEAD
                 Toast.makeText(context, "Organization ", Toast.LENGTH_SHORT).show()
+=======
+                Toast.makeText(context, "Liste out ", Toast.LENGTH_SHORT).show()
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
             }
         })
     }

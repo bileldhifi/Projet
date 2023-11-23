@@ -106,6 +106,7 @@
                         "endColumns": "100",
                         "endOffsets": "10093"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-sl/values-sl.xml",
@@ -123,6 +124,8 @@
                         "endColumns": "58,50,152,99",
                         "endOffsets": "10152,10203,10356,10456"
                     }
+=======
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
                 }
             ]
         }

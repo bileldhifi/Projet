@@ -8,9 +8,9 @@ import com.example.front.R
 class OrganizationsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
 
-  val NameOrganization: TextView = itemView.findViewById<TextView>(R.id.NameOrganization)
-  val AdressOrganization :TextView = itemView.findViewById<TextView>(R.id.AdressOrganization)
-    val DateOrganization :TextView = itemView.findViewById<TextView>(R.id.dateOrganization)
-  // val ImageEvent : ImageView = itemView.findViewById<ImageView>(R.id.ImageEvent)
+  val TitleEvent: TextView = itemView.findViewById<TextView>(R.id.NameOrganization)
+  val DateEvent :TextView = itemView.findViewById<TextView>(R.id.DateEvent)
+    val LieuEvent :TextView = itemView.findViewById<TextView>(R.id.AdressOrganization)
+   val ImageEvent : ImageView = itemView.findViewById<ImageView>(R.id.ImageEvent)
 
 }

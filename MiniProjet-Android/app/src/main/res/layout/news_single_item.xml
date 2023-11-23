@@ -16,7 +16,7 @@
 
 
         <TextView
-            android:id="@+id/TitleEvent"
+            android:id="@+id/NameOrganization"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
@@ -45,11 +45,11 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/ImageEvent"
+            app:layout_constraintTop_toBottomOf="@+id/EventImage"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/LieuEvent"
+            android:id="@+id/AdressOrganization"
             android:layout_width="130dp"
             android:layout_height="28dp"
             android:layout_gravity="center"
@@ -63,7 +63,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ImageEvent"
+            app:layout_constraintTop_toBottomOf="@+id/EventImage"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
@@ -87,7 +87,7 @@
             android:layout_marginBottom="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/ImageEvent"
+            app:layout_constraintTop_toTopOf="@+id/EventImage"
             app:layout_constraintVertical_bias="0.312"
             app:srcCompat="@drawable/isondate" />
 
@@ -98,8 +98,8 @@
             android:layout_marginTop="199dp"
             android:layout_marginEnd="11dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/LieuEvent"
-            app:layout_constraintTop_toTopOf="@+id/ImageEvent"
+            app:layout_constraintEnd_toStartOf="@+id/AdressOrganization"
+            app:layout_constraintTop_toTopOf="@+id/EventImage"
             app:srcCompat="@drawable/location" />
 
 

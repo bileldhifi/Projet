@@ -91,7 +91,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/oumaymacherif/D
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/7032dc5635cf0c63fd964769e6dffd03/transformed/jetified-lifecycle-livedata-core-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/21d56c65a0b2edb81012b2f863076e7f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
-MERGED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:17:1-56:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1b32f71f997cc4d809784e03bc6fe07c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
@@ -173,8 +172,6 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/oumaymacherif/Do
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/19164141b05d4f779d7ffb7aa20e5df4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
-MERGED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:46:5-54:19
-MERGED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:46:5-54:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/978f0179666215fe19d9cc3f55f00889/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/c9ab4f156489476701720abd5978a7f9/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
@@ -403,8 +400,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/oumaymache
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/21d56c65a0b2edb81012b2f863076e7f/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
-MERGED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/b49bbeff78a03f892e912e2ad7edcf74/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/1b32f71f997cc4d809784e03bc6fe07c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
@@ -591,6 +586,7 @@ ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lem
 		ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.8] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/9133fd0ee7f537b883a4c84093a10c8c/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+<<<<<<< HEAD
 uses-permission#android.permission.CAMERA
 ADDED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:22:5-65
 	android:name
@@ -639,3 +635,5 @@ ADDED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/D
 		ADDED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:52:13-54
 	android:name
 		ADDED from [com.journeyapps:zxing-android-embedded:4.0.0] /Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/AndroidManifest.xml:48:13-74
+=======
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)

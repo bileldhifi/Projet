@@ -21,16 +21,16 @@ public final class NewsSingleItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final TextView AdressOrganization;
+
+  @NonNull
   public final TextView DateEvent;
 
   @NonNull
   public final ImageView ImageEvent;
 
   @NonNull
-  public final TextView LieuEvent;
-
-  @NonNull
-  public final TextView TitleEvent;
+  public final TextView NameOrganization;
 
   @NonNull
   public final ImageView imageView2;
@@ -38,14 +38,15 @@ public final class NewsSingleItemBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView5;
 
-  private NewsSingleItemBinding(@NonNull CardView rootView, @NonNull TextView DateEvent,
-      @NonNull ImageView ImageEvent, @NonNull TextView LieuEvent, @NonNull TextView TitleEvent,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView5) {
+  private NewsSingleItemBinding(@NonNull CardView rootView, @NonNull TextView AdressOrganization,
+      @NonNull TextView DateEvent, @NonNull ImageView ImageEvent,
+      @NonNull TextView NameOrganization, @NonNull ImageView imageView2,
+      @NonNull ImageView imageView5) {
     this.rootView = rootView;
+    this.AdressOrganization = AdressOrganization;
     this.DateEvent = DateEvent;
     this.ImageEvent = ImageEvent;
-    this.LieuEvent = LieuEvent;
-    this.TitleEvent = TitleEvent;
+    this.NameOrganization = NameOrganization;
     this.imageView2 = imageView2;
     this.imageView5 = imageView5;
   }
@@ -77,6 +78,12 @@ public final class NewsSingleItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.AdressOrganization;
+      TextView AdressOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (AdressOrganization == null) {
+        break missingId;
+      }
+
       id = R.id.DateEvent;
       TextView DateEvent = ViewBindings.findChildViewById(rootView, id);
       if (DateEvent == null) {
@@ -89,15 +96,9 @@ public final class NewsSingleItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.LieuEvent;
-      TextView LieuEvent = ViewBindings.findChildViewById(rootView, id);
-      if (LieuEvent == null) {
-        break missingId;
-      }
-
-      id = R.id.TitleEvent;
-      TextView TitleEvent = ViewBindings.findChildViewById(rootView, id);
-      if (TitleEvent == null) {
+      id = R.id.NameOrganization;
+      TextView NameOrganization = ViewBindings.findChildViewById(rootView, id);
+      if (NameOrganization == null) {
         break missingId;
       }
 
@@ -113,8 +114,8 @@ public final class NewsSingleItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new NewsSingleItemBinding((CardView) rootView, DateEvent, ImageEvent, LieuEvent,
-          TitleEvent, imageView2, imageView5);
+      return new NewsSingleItemBinding((CardView) rootView, AdressOrganization, DateEvent,
+          ImageEvent, NameOrganization, imageView2, imageView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

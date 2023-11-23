@@ -74,6 +74,7 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-zh-rCN/values-zh-rCN.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -109,6 +110,9 @@
                 },
                 {
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/2419f877941fdd512955749390f9932e/transformed/appcompat-1.6.1/res/values-zh-rCN/values-zh-rCN.xml",
+=======
+                    "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/09a8bb501bcc75fcb17fe2501375e953/transformed/appcompat-1.4.0/res/values-zh-rCN/values-zh-rCN.xml",
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

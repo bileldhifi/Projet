@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.front"
-        minSdk 24
+        minSdk 21
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -94,6 +94,7 @@ implementation'com.squareup.retrofit2:converter-scalars:2.3.0'
     implementation 'com.squareup.picasso:picasso:2.8'
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+<<<<<<< HEAD
     implementation 'com.journeyapps:zxing-android-embedded:4.0.0'
 
 
@@ -113,3 +114,6 @@ implementation'com.squareup.retrofit2:converter-scalars:2.3.0'
 
 
 }
+=======
+}
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)

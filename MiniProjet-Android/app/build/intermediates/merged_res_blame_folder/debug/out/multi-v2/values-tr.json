@@ -89,6 +89,7 @@
                         "endColumns": "109,154,135,104,146,129,126,105,171,106,156,133,144,166,61,63,79",
                         "endOffsets": "3434,3589,3725,3830,3977,4107,4234,4340,4659,4766,4923,5057,5202,5369,5431,5495,5575"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "/Users/oumaymacherif/Downloads/Lemonade_Incomplete/caches/transforms-3/3e04203afeda97223c63a7361e5b5b6e/transformed/jetified-zxing-android-embedded-4.0.0/res/values-tr/values-tr.xml",
@@ -123,6 +124,8 @@
                         "endColumns": "100",
                         "endOffsets": "9868"
                     }
+=======
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
                 }
             ]
         }

@@ -22,6 +22,7 @@ class OrganizationsAdapter(private var organizationsList: ListOrganizations) :
     override fun onBindViewHolder(holder: OrganizationsViewHolder, position: Int) {
 
 
+<<<<<<< HEAD
         val name = organizationsList.organizations[position].organizationName
         val description = organizationsList.organizations[position].organizationDescription
         val address = organizationsList.organizations[position].organizationAddress
@@ -42,6 +43,34 @@ class OrganizationsAdapter(private var organizationsList: ListOrganizations) :
                 putExtra("phone", phone)
                 putExtra("date", date)
                 // Add other extras if needed
+=======
+        val image =     OrganizationsList.organizations[position].organizationName
+        val title =     OrganizationsList.organizations[position].organizationDescription
+        val lieu = OrganizationsList.organizations[position].organizationAddress
+        val date = OrganizationsList.organizations[position].organizationEmail
+        val organisation = OrganizationsList.organizations[position].organizationPhone
+        val description = OrganizationsList.organizations[position].organizationDate
+        //val qrcode = OrganizationsList.organizations[position].qrcode
+        // holder.UserPic.setImageResource(NewsList[position].userPic)
+        holder.TitleEvent.text=title
+        holder.LieuEvent.text = lieu
+        holder.DateEvent.text = date
+       // Picasso.get().load("http:///10.0.2.2:3000/"+image).into(holder.ImageEvent);
+        holder.itemView.setOnClickListener{
+            val currentItem = OrganizationsList.organizations[position]
+            //Log.i("test",currentItem.toString())
+            val intent = Intent(holder.itemView.context, DetailsActivity::class.java)
+            intent.apply {
+                intent.putExtra("name", currentItem.organizationName)
+                intent.putExtra("date", currentItem.organizationDescription)
+                intent.putExtra("organisation", currentItem.organizationAddress)
+                intent.putExtra("lieu", currentItem.organizationEmail)
+                intent.putExtra("image", currentItem.organizationPhone)
+                intent.putExtra("description", currentItem.organizationDate)
+
+               // intent.putExtra("qrcode", currentItem.qrcode)
+
+>>>>>>> parent of d9a8cf72 (Scan qr code + autorisation)
             }
             holder.itemView.context.startActivity(intent)
         }
