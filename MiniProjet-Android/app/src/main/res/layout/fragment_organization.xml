@@ -8,7 +8,7 @@
     tools:context=".fragments.OrganizationFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerOrganization"
+        android:id="@+id/recyclerOrganizations"
         android:layout_width="397dp"
         android:layout_height="699dp"
         android:layout_margin="8dp"

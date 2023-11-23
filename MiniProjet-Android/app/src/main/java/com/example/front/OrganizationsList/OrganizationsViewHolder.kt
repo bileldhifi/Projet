@@ -1,7 +1,6 @@
-package com.example.front.EventsList
+package com.example.front.OrganizationsList
 
 import android.view.View
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.front.R

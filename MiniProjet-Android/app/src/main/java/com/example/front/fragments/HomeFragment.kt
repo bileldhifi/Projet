@@ -1,7 +1,6 @@
 package com.example.front.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,10 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.front.*
 import com.example.front.Api.EventsApi
-import com.example.front.EventsList.NewsAdapter
+import com.example.front.EventsList.EventsAdapter
 import com.example.front.Utils.RetrofitClient
 import com.example.front.data.ListEvents
-import com.example.front.data.Events
 import com.google.gson.Gson
 
 
@@ -27,8 +25,8 @@ import org.json.JSONObject
 
 
 class HomeFragment : Fragment() {
-    lateinit var recylcerNews: RecyclerView
-    lateinit var recylcerNewsAdapter: NewsAdapter
+    lateinit var recyclerEvents: RecyclerView
+    lateinit var recyclerEventsAdapter: EventsAdapter
      override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -52,7 +50,7 @@ private fun doList() {
         retro.listEvents().enqueue(object :Callback<JsonObject>{
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
                 Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
-                recylcerNews = view?.findViewById(R.id.recyclerNews) !!
+                recyclerEvents = view?.findViewById(R.id.recyclerNews) !!
                 val jsonString = response.body().toString()
                 // Log.d("JsonString", jsonString)
 
@@ -61,11 +59,11 @@ private fun doList() {
 
                 val linearLayoutManager:LinearLayoutManager = LinearLayoutManager(context)
                 linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
-                recylcerNewsAdapter = NewsAdapter(listEvents)
+                recyclerEventsAdapter = EventsAdapter(listEvents)
 
-                recylcerNews.adapter = recylcerNewsAdapter
+                recyclerEvents.adapter = recyclerEventsAdapter
 
-                recylcerNews.layoutManager = linearLayoutManager
+                recyclerEvents.layoutManager = linearLayoutManager
 
             }
 

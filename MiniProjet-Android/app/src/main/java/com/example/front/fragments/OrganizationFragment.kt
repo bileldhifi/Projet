@@ -23,8 +23,8 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class OrganizationFragment : Fragment() {
-    private lateinit var recyclerOrganization: RecyclerView
-    private lateinit var recyclerOrganizationAdapter: OrganizationsAdapter
+    private lateinit var recyclerOrganizations: RecyclerView
+    private lateinit var recyclerOrganizationsAdapter: OrganizationsAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -48,11 +48,11 @@ class OrganizationFragment : Fragment() {
 
         retro.listOrganizations().enqueue(object : Callback<JsonObject> {
             override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
-                recyclerOrganization = view?.findViewById(R.id.recyclerOrganization) !!
+                recyclerOrganizations = view?.findViewById(R.id.recyclerOrganizations) !!
 
-                Toast.makeText(context, "Liste in ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Org ", Toast.LENGTH_SHORT).show()
                 val jsonString = response.body().toString()
-                        // Log.d("JsonString", jsonString)
+                         Log.d("JsonString", jsonString)
 
                         val gson = Gson()
                 val listOrganizations = gson.fromJson(jsonString, ListOrganizations::class.java)
@@ -61,15 +61,14 @@ class OrganizationFragment : Fragment() {
                 linearLayoutManager.orientation = LinearLayoutManager.VERTICAL
 
                 // Set the data directly in the adapter without using updateData
-                        recyclerOrganizationAdapter = OrganizationsAdapter(listOrganizations)
-                        recyclerOrganization.adapter = recyclerOrganizationAdapter
-                recyclerOrganization.layoutManager = linearLayoutManager
+                        recyclerOrganizationsAdapter = OrganizationsAdapter(listOrganizations)
+                        recyclerOrganizations.adapter = recyclerOrganizationsAdapter
+                recyclerOrganizations.layoutManager = linearLayoutManager
                     }
 
 
             override fun onFailure(call: Call<JsonObject>, t: Throwable) {
-                Log.e("OrganizationFragment", "Failed: ${t.message}")
-                // Display an appropriate message to the user if needed
+                Toast.makeText(context, "Organization ", Toast.LENGTH_SHORT).show()
             }
         })
     }

@@ -19,6 +19,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.front.R
 import com.google.zxing.integration.android.IntentIntegrator
 import com.squareup.picasso.Picasso
 

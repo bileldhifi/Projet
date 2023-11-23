@@ -12,20 +12,36 @@
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/fragment_organization.xml"
     },
     {
-        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_menu_client.xml",
-        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/activity_menu_client.xml"
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main2.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/activity_main2.xml"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/organization_single_item.xml",
-        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/organization_single_item.xml"
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/bottomsheet.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/bottomsheet.xml"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_layout.xml",
         "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/popup_layout.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/organization_single_item.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/organization_single_item.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_menu_client.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/activity_menu_client.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_retrofit.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/activity_retrofit.xml"
+    },
+    {
+        "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_add_annotation.xml",
+        "source": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/src/main/res/layout/dialog_add_annotation.xml"
     },
     {
         "merged": "/Users/oumaymacherif/Downloads/4sim4/MiniProjet/MiniProjet-Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/news_single_item.xml",

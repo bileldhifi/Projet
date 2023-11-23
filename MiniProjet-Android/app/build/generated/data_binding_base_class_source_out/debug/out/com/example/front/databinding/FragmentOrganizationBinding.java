@@ -20,12 +20,12 @@ public final class FragmentOrganizationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final RecyclerView recyclerOrganization;
+  public final RecyclerView recyclerOrganizations;
 
   private FragmentOrganizationBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView recyclerOrganization) {
+      @NonNull RecyclerView recyclerOrganizations) {
     this.rootView = rootView;
-    this.recyclerOrganization = recyclerOrganization;
+    this.recyclerOrganizations = recyclerOrganizations;
   }
 
   @Override
@@ -55,13 +55,13 @@ public final class FragmentOrganizationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.recyclerOrganization;
-      RecyclerView recyclerOrganization = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerOrganization == null) {
+      id = R.id.recyclerOrganizations;
+      RecyclerView recyclerOrganizations = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerOrganizations == null) {
         break missingId;
       }
 
-      return new FragmentOrganizationBinding((ConstraintLayout) rootView, recyclerOrganization);
+      return new FragmentOrganizationBinding((ConstraintLayout) rootView, recyclerOrganizations);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

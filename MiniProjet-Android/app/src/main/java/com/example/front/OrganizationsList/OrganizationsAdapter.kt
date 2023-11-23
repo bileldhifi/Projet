@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.front.DetailsActivity
-import com.example.front.EventsList.OrganizationsViewHolder
 import com.example.front.R
 import com.example.front.data.ListOrganizations
 
